@@ -43,7 +43,7 @@ $colorSchemes = [
 
 <head>
     <meta charset="utf-8">
-    <title>Student Stickers - SCHOOL INDIA JUNIOR</title>
+    <title>Student Stickers - School Management Softwere</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <style>
         @page {
@@ -369,7 +369,7 @@ $colorSchemes = [
                     background: <?= $colors['primary'] ?>;
                     border-bottom-color: <?= $colors['secondary'] ?>;
                 ">
-                    <div class="school-name">SCHOOL INDIA JUNIOR</div>
+                    <div class="school-name">School Management Softwere</div>
                 </div>
 
                 <!-- Content Area -->

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>School India Junior - Quality Education for Young Minds</title>
+    <title>School Management Softwere - Quality Education for Young Minds</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <!-- Fonts & Icons -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
@@ -1121,7 +1121,7 @@
     <header>
         <div class="container header-row" style="position:relative;">
             <div class="logo" style="display:flex;align-items:center;gap:12px;">
-                <img src="public/images/logo.png" alt="School India Junior Logo" onerror="this.style.display='none'">
+                <img src="public/images/logo.png" alt="School Management Softwere Logo" onerror="this.style.display='none'">
                 <div>
                     <div class="logo-text">School <span>India Junior</span></div>
                     <div class="tagline">Nurturing curious, confident learners</div>
@@ -1244,7 +1244,7 @@
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-col">
-                    <h3>School India Junior</h3>
+                    <h3>School Management Softwere</h3>
                     <p>Providing quality education for young minds since 2005. Our mission is to nurture curious, confident, and compassionate learners.</p>
                     <div style="margin-top:10px">
                         <a class="muted-small" href="#">Privacy Policy</a>
@@ -1291,7 +1291,7 @@
             </div>
 
             <div class="footer-bottom">
-                <p>&copy; 2023 School India Junior. All Rights Reserved.</p>
+                <p>&copy; 2023 School Management Softwere. All Rights Reserved.</p>
                 <div class="developer-credit">
                     <p>Designed and Developed by <a href="https://elexa.in" target="_blank" style="color:var(--gold);text-decoration:none">Elexa Technologies</a></p>
                 </div>

@@ -64,7 +64,7 @@ $invoice_no = $invoice['invoice_no'] ?? "INV-" . str_pad($invoice['id'], 5, '0',
 
         /* Watermark */
         .invoice-box::before {
-            content: "SCHOOL INDIA JUNIOR";
+            content: "School Management Softwere";
             position: absolute;
             font-size: 60px;
             font-weight: 700;
@@ -146,7 +146,7 @@ $invoice_no = $invoice['invoice_no'] ?? "INV-" . str_pad($invoice['id'], 5, '0',
 
         <div class="header-area">
             <div class="school-info">
-                <h2>SCHOOL INDIA JUNIOR</h2>
+                <h2>School Management Softwere</h2>
                 <small>Kolkata, West Bengal</small>
                 <small>Phone: +91 9876543210</small>
             </div>

@@ -14,7 +14,7 @@
 <meta name="theme-color" content="#0a5cff">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
-<meta name="apple-mobile-web-app-title" content="School India Junior">
+<meta name="apple-mobile-web-app-title" content="School Management Softwere">
 
 <!-- Manifest -->
 <link rel="manifest" href="/manifest.json">
@@ -1140,7 +1140,7 @@ installBtn.addEventListener('click', async () => {
  <header>
         <div class="container header-row" style="position:relative;">
             <div class="logo" style="display:flex;align-items:center;gap:12px;">
-                <img src="public/images/logo.png" alt="School India Junior Logo" onerror="this.style.display='none'">
+                <img src="public/images/logo.png" alt="School Management Softwere Logo" onerror="this.style.display='none'">
                 <div>
                     <div class="logo-text">School <span>India Junior</span></div>
                     <div class="tagline">Nurturing curious, confident learners</div>
@@ -1190,7 +1190,7 @@ installBtn.addEventListener('click', async () => {
         $slides = [
             [
                 'title' => 'Shaping Young Minds for a Brighter Future',
-                'description' => "At School India Junior, we provide a nurturing environment where children discover their potential, develop critical thinking skills, and build character for lifelong success.",
+                'description' => "At School Management Softwere, we provide a nurturing environment where children discover their potential, develop critical thinking skills, and build character for lifelong success.",
                 'image' => $fallbackImg
             ],
             [
@@ -1313,7 +1313,7 @@ installBtn.addEventListener('click', async () => {
     <section class="features">
         <div class="container">
             <div class="section-title">
-                <h2>Why Choose School India Junior?</h2>
+                <h2>Why Choose School Management Softwere?</h2>
                 <p>We are committed to providing exceptional education that prepares students for the challenges of tomorrow.</p>
             </div>
 
@@ -1389,12 +1389,12 @@ installBtn.addEventListener('click', async () => {
         <div class="container">
             <div class="section-title">
                 <h2>What Parents Say</h2>
-                <p>Hear from our community about their experiences with School India Junior.</p>
+                <p>Hear from our community about their experiences with School Management Softwere.</p>
             </div>
 
             <div class="testimonials-container">
                 <div class="testimonial-card">
-                    <p class="testimonial-text">"School India Junior has been a blessing for our daughter. She's not only excelling academically but has also developed incredible confidence and social skills."</p>
+                    <p class="testimonial-text">"School Management Softwere has been a blessing for our daughter. She's not only excelling academically but has also developed incredible confidence and social skills."</p>
                     <div style="display:flex;align-items:center;gap:12px">
                         <div class="author-avatar">PS</div>
                         <div>
@@ -1405,7 +1405,7 @@ installBtn.addEventListener('click', async () => {
                 </div>
 
                 <div class="testimonial-card">
-                    <p class="testimonial-text">"The teachers at School India Junior go above and beyond to ensure each child receives personalized attention. Our son loves going to school every day!"</p>
+                    <p class="testimonial-text">"The teachers at School Management Softwere go above and beyond to ensure each child receives personalized attention. Our son loves going to school every day!"</p>
                     <div style="display:flex;align-items:center;gap:12px">
                         <div class="author-avatar">RK</div>
                         <div>
@@ -1432,7 +1432,7 @@ installBtn.addEventListener('click', async () => {
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-col">
-                    <h3>School India Junior</h3>
+                    <h3>School Management Softwere</h3>
                     <p>Providing quality education for young minds since 2005. Our mission is to nurture curious, confident, and compassionate learners.</p>
                     <div style="margin-top:10px">
                         <a class="muted-small" href="#">Privacy Policy</a>
@@ -1479,7 +1479,7 @@ installBtn.addEventListener('click', async () => {
             </div>
 
             <div class="footer-bottom">
-                <p>&copy; 2023 School India Junior. All Rights Reserved.</p>
+                <p>&copy; 2023 School Management Softwere. All Rights Reserved.</p>
                 <div class="developer-credit">
                     <p>Designed and Developed by <a href="https://elexa.in" target="_blank" style="color:var(--gold);text-decoration:none">Elexa Technologies</a></p>
                 </div>

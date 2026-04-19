@@ -9,7 +9,7 @@ use Endroid\QrCode\Writer\PngWriter;
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Parent ID Cards - SCHOOL INDIA JUNIOR</title>
+<title>Parent ID Cards - School Management Softwere</title>
 
 <style>
 @page {
@@ -191,7 +191,7 @@ while ($student = $res->fetch_assoc()):
 ?>
 
 <div class="id-card">
-    <div class="school-title">SCHOOL INDIA JUNIOR</div>
+    <div class="school-title">School Management Softwere</div>
    
 
     <div class="photo-box">

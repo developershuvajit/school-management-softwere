@@ -631,7 +631,7 @@ $is_print = isset($_GET['print']) && $_GET['print'] == 'true';
                                     </div>
                                     <div class="col-md-6 text-md-end">
                                         <img src="../public/images/logo.png" alt="School Logo" class="school-logo mb-3">
-                                        <h3 class="text-primary mb-1">SCHOOL INDIA JUNIOR</h3>
+                                        <h3 class="text-primary mb-1">School Management Softwere</h3>
                                         <p class="text-muted mb-0">Kolkata, West Bengal</p>
                                         <p class="text-muted mb-0">
                                             <i class="fas fa-phone me-1"></i> +91 9876543210
@@ -768,7 +768,7 @@ $is_print = isset($_GET['print']) && $_GET['print'] == 'true';
 
                     <!-- Company Info -->
                     <div class="company-info">
-                        <div style="font-weight: bold; font-size: 14pt;">SCHOOL INDIA JUNIOR</div>
+                        <div style="font-weight: bold; font-size: 14pt;">School Management Softwere</div>
                         <div>Kolkata, West Bengal - 700001</div>
                         <div>Phone: +91 9876543210 | Email: info@schoolindiajunior.edu.in</div>
                         <div style="margin-top: 5px; font-size: 10pt; color: #666;">
@@ -906,7 +906,7 @@ $is_print = isset($_GET['print']) && $_GET['print'] == 'true';
                         <div class="signature-area">
                             <div class="signature-line"></div>
                             <div style="margin-top: 5px; font-weight: bold;">Authorized Signatory</div>
-                            <div style="font-size: 9pt; color: #666;">School India Junior</div>
+                            <div style="font-size: 9pt; color: #666;">School Management Softwere</div>
                             <div style="margin-top: 10px; font-size: 8pt;">
                                 <div>Stamp & Seal</div>
                                 <div>Date: ________________</div>
@@ -1193,7 +1193,7 @@ $is_print = isset($_GET['print']) && $_GET['print'] == 'true';
 
             <!-- Company Info -->
             <div class="company-info">
-                <div style="font-weight: bold; font-size: 14pt;">SCHOOL INDIA JUNIOR</div>
+                <div style="font-weight: bold; font-size: 14pt;">School Management Softwere</div>
                 <div>Kolkata, West Bengal - 700001</div>
                 <div>Phone: +91 9876543210 | Email: info@schoolindiajunior.edu.in</div>
                 <div style="margin-top: 5px; font-size: 10pt; color: #666;">
@@ -1300,7 +1300,7 @@ $is_print = isset($_GET['print']) && $_GET['print'] == 'true';
                 <div class="signature-area">
                     <div class="signature-line"></div>
                     <div style="margin-top: 5px; font-weight: bold;">Authorized Signatory</div>
-                    <div style="font-size: 9pt; color: #666;">School India Junior</div>
+                    <div style="font-size: 9pt; color: #666;">School Management Softwere</div>
                     <div style="margin-top: 10px; font-size: 8pt;">
                         <div>Stamp & Seal</div>
                         <div>Date: ________________</div>

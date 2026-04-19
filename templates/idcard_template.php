@@ -10,7 +10,7 @@ use Endroid\QrCode\Writer\PngWriter;
 
 <head>
     <meta charset="utf-8">
-    <title>Student ID Cards - SCHOOL INDIA JUNIOR</title>
+    <title>Student ID Cards - School Management Softwere</title>
 
     <style>
      /* ================= PAGE SETUP ================= */
@@ -219,7 +219,7 @@ html, body {
     ?>
 
         <div class="id-card">
-            <div class="school-title">SCHOOL INDIA JUNIOR</div>
+            <div class="school-title">School Management Softwere</div>
 
             <div class="photo-box">
                 <img class="img-fluid" src="<?= $photoPath ?>" alt="student">

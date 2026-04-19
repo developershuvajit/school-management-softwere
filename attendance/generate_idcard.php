@@ -60,7 +60,7 @@ $result = $conn->query($sql);
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>School India Junior</title>
+    <title>School Management Softwere</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="icon" type="image/png" sizes="16x16" href="../public/images/favicon.png">

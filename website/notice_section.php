@@ -68,7 +68,7 @@ while ($row = $result->fetch_assoc()) {
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Notices - School India Junior</title>
+    <title>Notices - School Management Softwere</title>
     <link rel="icon" type="image/png" sizes="16x16" href="../public/images/favicon.png">
     <link href="../public/css/style.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>

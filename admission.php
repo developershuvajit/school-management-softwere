@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>School India Junior - Admission Enquiry</title>
+    <title>School Management Softwere - Admission Enquiry</title>
 
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -456,7 +456,7 @@
     <header class=" bg-dark">
         <div class="container header-row" style="position:relative;">
             <div class="logo" style="display:flex;align-items:center;gap:12px;">
-                <img src="public/images/logo.png" alt="School India Junior Logo" onerror="this.style.display='none'">
+                <img src="public/images/logo.png" alt="School Management Softwere Logo" onerror="this.style.display='none'">
                 <div>
                     <div class="logo-text">School <span>India Junior</span></div>
                     <div class="tagline">Nurturing curious, confident learners</div>

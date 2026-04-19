@@ -8,7 +8,7 @@ use Endroid\QrCode\Writer\PngWriter;
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Teacher ID Cards - SCHOOL INDIA JUNIOR</title>
+<title>Teacher ID Cards - School Management Softwere</title>
 
 <style>
 @page { size: A4 portrait; margin: 8mm; }
@@ -143,7 +143,7 @@ while ($teacher = $res->fetch_assoc()):
 ?>
 
 <div class="id-card">
-    <div class="school-title">SCHOOL INDIA JUNIOR</div>
+    <div class="school-title">School Management Softwere</div>
 
     <div class="photo-box">
         <img src="<?= $photoPath ?>">

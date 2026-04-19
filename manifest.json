@@ -1,7 +1,7 @@
 {
-  "name": "School India Junior",
+  "name": "School Management Softwere",
   "short_name": "SI Junior",
-  "description": "School India Junior – Quality Education for Young Minds",
+  "description": "School Management Softwere – Quality Education for Young Minds",
   "start_url": "/login.php?source=pwa",
   "scope": "/",
   "display": "standalone",
