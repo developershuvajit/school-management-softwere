@@ -3,243 +3,246 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>School Management Softwere - Login Portal</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Login - School Management Software</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    
     <style>
+        :root {
+            --primary: #0a5cff;
+            --primary-light: #3b82f6;
+            --accent: #10b981;
+            --text: #1e2937;
+            --muted: #64748b;
+            --bg: #f8fafc;
+            --card: #ffffff;
+            --border: #e2e8f0;
+            --radius: 16px;
+            --shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+        }
+
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
-        
-        :root {
-            --primary: #1a4b8c;
-            --secondary: #f9a826;
-            --light: #f8f9fa;
-            --dark: #212529;
-            --gray: #6c757d;
-        }
-        
+
         body {
-            background: linear-gradient(135deg, #1a4b8c, #2a5da8);
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            background: linear-gradient(135deg, #f1f5f9 0%, #e0e7ff 100%);
             min-height: 100vh;
             display: flex;
             align-items: center;
             justify-content: center;
             padding: 20px;
         }
-        
+
         .login-container {
             width: 100%;
-            max-width: 450px;
-            background-color: white;
-            border-radius: 10px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            max-width: 460px;
+            background: var(--card);
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
             overflow: hidden;
+            border: 1px solid var(--border);
         }
-        
+
+        /* Header */
         .login-header {
-            background-color: var(--primary);
+            background: linear-gradient(135deg, var(--primary), var(--primary-light));
             color: white;
-            padding: 30px 25px;
+            padding: 40px 30px;
             text-align: center;
         }
-        
+
         .school-logo {
             display: flex;
             align-items: center;
             justify-content: center;
-            margin-bottom: 15px;
+            gap: 12px;
+            margin-bottom: 16px;
         }
-        
+
         .logo-icon {
-            background-color: white;
+            background: rgba(255,255,255,0.95);
             color: var(--primary);
-            width: 50px;
-            height: 50px;
+            width: 58px;
+            height: 58px;
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
-            margin-right: 10px;
-            font-size: 24px;
+            font-size: 28px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.15);
         }
-        
+
         .logo-text {
-            font-size: 24px;
+            font-size: 26px;
             font-weight: 700;
+            letter-spacing: -0.5px;
         }
-        
+
         .logo-text span {
-            color: var(--secondary);
+            color: #fff;
         }
-        
+
         .login-header h1 {
-            font-size: 1.8rem;
+            font-size: 1.85rem;
             margin-bottom: 8px;
         }
-        
+
         .login-header p {
             opacity: 0.9;
-            font-size: 0.95rem;
+            font-size: 1rem;
         }
-        
+
+        /* Body */
         .login-body {
-            padding: 30px;
+            padding: 40px 35px;
         }
-        
+
+        .form-group {
+            margin-bottom: 24px;
+        }
+
         .form-label {
             display: block;
             margin-bottom: 8px;
             font-weight: 600;
-            color: var(--primary);
+            color: var(--text);
+            font-size: 0.95rem;
         }
-        
-        .form-label i {
-            margin-right: 8px;
-            width: 20px;
-        }
-        
+
         .form-control {
             width: 100%;
-            padding: 12px 15px;
-            border: 1px solid #ddd;
-            border-radius: 5px;
+            padding: 14px 16px;
+            border: 1px solid var(--border);
+            border-radius: 10px;
             font-size: 1rem;
-            transition: border-color 0.3s;
+            transition: all 0.3s;
         }
-        
+
         .form-control:focus {
             border-color: var(--primary);
+            box-shadow: 0 0 0 4px rgba(10, 92, 255, 0.12);
             outline: none;
-            box-shadow: 0 0 0 3px rgba(26, 75, 140, 0.2);
         }
-        
+
         .input-group {
             position: relative;
-            display: flex;
-            align-items: center;
         }
-        
+
         .password-toggle {
             position: absolute;
-            right: 10px;
+            right: 16px;
+            top: 50%;
+            transform: translateY(-50%);
             background: none;
             border: none;
-            color: var(--gray);
+            color: var(--muted);
             cursor: pointer;
-            font-size: 1rem;
+            font-size: 1.1rem;
         }
-        
-        .mb-4 {
-            margin-bottom: 1.5rem;
-        }
-        
-        .d-grid {
-            display: grid;
-        }
-        
-        .btn {
-            background-color: var(--primary);
+
+        .btn-login {
+            width: 100%;
+            background: linear-gradient(90deg, var(--primary), var(--primary-light));
             color: white;
             border: none;
-            padding: 14px;
-            border-radius: 5px;
+            padding: 16px;
+            border-radius: 10px;
             font-size: 1.1rem;
             font-weight: 600;
             cursor: pointer;
-            transition: background-color 0.3s;
+            transition: all 0.3s;
+            margin-top: 10px;
         }
-        
-        .btn:hover {
-            background-color: #153a6b;
+
+        .btn-login:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(10, 92, 255, 0.25);
         }
-        
-        .btn-primary {
-            background-color: var(--primary);
-        }
-        
-        .btn-lg {
-            padding: 14px;
-        }
-        
+
         .login-footer {
             text-align: center;
-            margin-top: 20px;
-            font-size: 0.9rem;
-            color: var(--gray);
+            margin-top: 28px;
+            font-size: 0.95rem;
+            color: var(--muted);
         }
-        
+
         .login-footer a {
             color: var(--primary);
             text-decoration: none;
         }
-        
+
         .login-footer a:hover {
             text-decoration: underline;
         }
-        
+
         .additional-info {
-            margin-top: 25px;
-            padding: 15px;
-            background-color: #f0f5ff;
-            border-radius: 5px;
-            font-size: 0.9rem;
-            color: var(--dark);
+            margin-top: 32px;
+            padding: 20px;
+            background: #f8fafc;
+            border-radius: 12px;
+            border: 1px solid var(--border);
+            font-size: 0.92rem;
         }
-        
+
         .additional-info h3 {
             color: var(--primary);
-            margin-bottom: 10px;
+            margin-bottom: 12px;
             font-size: 1.1rem;
         }
-        
+
         .additional-info ul {
-            padding-left: 20px;
+            padding-left: 22px;
+            color: var(--muted);
         }
-        
+
         .additional-info li {
-            margin-bottom: 5px;
+            margin-bottom: 6px;
         }
-        
+
+        /* Responsive */
         @media (max-width: 480px) {
-            .login-container {
-                margin: 0 10px;
-            }
-            
-            .login-header {
-                padding: 20px 15px;
-            }
-            
             .login-body {
-                padding: 20px;
+                padding: 30px 25px;
+            }
+            .login-header {
+                padding: 30px 20px;
             }
         }
     </style>
 </head>
 <body>
+
     <div class="login-container">
+        <!-- Header -->
         <div class="login-header">
             <div class="school-logo">
                 <div class="logo-icon">
                     <i class="fas fa-graduation-cap"></i>
                 </div>
-                <div class="logo-text">School <span>India Junior</span></div>
+                <div class="logo-text">School <span>India</span></div>
             </div>
-            <h1>Login Portal</h1>
-            <p>Access your academic information and resources</p>
+            <h1>Welcome Back</h1>
+            <p>Sign in to access your school dashboard</p>
         </div>
-        
+
+        <!-- Body -->
         <div class="login-body">
             <form method="post" action="actions/login_script.php" id="loginForm">
-                <div class="mb-4">
-                    <label class="form-label"><i class="fas fa-envelope"></i> Email Address</label>
-                    <input type="email" name="email" class="form-control" required autofocus placeholder="Enter your email">
-                </div>
                 
-                <div class="mb-4">
-                    <label class="form-label"><i class="fas fa-lock"></i> Password</label>
+                <div class="form-group">
+                    <label class="form-label">
+                        <i class="fas fa-envelope" style="margin-right:8px;"></i> Email Address
+                    </label>
+                    <input type="email" name="email" class="form-control" required autofocus placeholder="Enter your registered email">
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">
+                        <i class="fas fa-lock" style="margin-right:8px;"></i> Password
+                    </label>
                     <div class="input-group">
                         <input type="password" name="password" id="password" class="form-control" required placeholder="Enter your password">
                         <button type="button" class="password-toggle" id="togglePassword">
@@ -247,33 +250,35 @@
                         </button>
                     </div>
                 </div>
-                
-                <div class="d-grid mb-3">
-                    <button class="btn btn-primary btn-lg" type="submit" id="loginBtn">
-                        <span id="btnText">Login</span>
-                    </button>
-                </div>
-                
+
+                <button type="submit" class="btn-login" id="loginBtn">
+                    Sign In
+                </button>
+
                 <div class="login-footer">
-                    <a href="#">Forgot your password?</a> • <a href="#">Contact Support</a>
+                    <a href="#">Forgot Password?</a> &nbsp;•&nbsp; 
+                    <a href="#">Contact Support</a>
                 </div>
             </form>
-            
+
+            <!-- Login Instructions -->
             <div class="additional-info">
-                <h3>Login Instructions</h3>
+                <h3>Login Guidelines</h3>
                 <ul>
-                    <li>Students: Use your school-issued email address</li>
-                    <li>Parents: Use the email registered with the school</li>
-                    <li>Faculty: Use your official school email</li>
+                    <li><strong>Students:</strong> Use your school-issued email</li>
+                    <li><strong>Parents:</strong> Use the email registered during admission</li>
+                    <li><strong>Teachers & Staff:</strong> Use your official school email</li>
                 </ul>
             </div>
         </div>
     </div>
 
     <script>
-        // Toggle password visibility
-        document.getElementById('togglePassword').addEventListener('click', function() {
-            const passwordInput = document.getElementById('password');
+        // Password Toggle Functionality
+        const togglePassword = document.getElementById('togglePassword');
+        const passwordInput = document.getElementById('password');
+
+        togglePassword.addEventListener('click', function () {
             const icon = this.querySelector('i');
             
             if (passwordInput.type === 'password') {
@@ -286,8 +291,17 @@
                 icon.classList.add('fa-eye');
             }
         });
-        
-        
+
+        // Optional: Disable button on submit to prevent double submission
+        document.getElementById('loginForm').addEventListener('submit', function() {
+            const btn = document.getElementById('loginBtn');
+            btn.innerHTML = `
+                <span style="display:flex;align-items:center;justify-content:center;gap:8px;">
+                    <i class="fas fa-spinner fa-spin"></i> Signing In...
+                </span>`;
+            btn.disabled = true;
+        });
     </script>
+
 </body>
 </html>
