@@ -1,0 +1,17 @@
+# Config files (important)
+config/database.php
+.env
+
+# Uploads / user files
+/uploads/
+/storage/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node হলে (future)
+node_modules/

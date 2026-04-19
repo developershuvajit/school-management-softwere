@@ -1,0 +1,152 @@
+[17-Nov-2025 10:10:59 UTC] PHP Warning:  include(../includes/header.php): Failed to open stream: No such file or directory in /home/schoolin/public_html/dashboard/profile.php on line 55
+[17-Nov-2025 10:10:59 UTC] PHP Warning:  include(../includes/header.php): Failed to open stream: No such file or directory in /home/schoolin/public_html/dashboard/profile.php on line 55
+[17-Nov-2025 10:10:59 UTC] PHP Warning:  include(): Failed opening '../includes/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/schoolin/public_html/dashboard/profile.php on line 55
+[29-Dec-2025 12:40:16 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 4
+[29-Dec-2025 12:40:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/schoolin/public_html/dashboard/super_admin_dashboard.php:1) in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 7
+[29-Dec-2025 12:41:26 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 4
+[29-Dec-2025 12:41:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/schoolin/public_html/dashboard/super_admin_dashboard.php:1) in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 7
+[29-Dec-2025 12:41:32 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 4
+[29-Dec-2025 12:41:32 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/schoolin/public_html/dashboard/super_admin_dashboard.php:1) in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 7
+[29-Dec-2025 12:41:39 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 4
+[29-Dec-2025 12:41:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/schoolin/public_html/dashboard/super_admin_dashboard.php:1) in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 7
+[29-Dec-2025 12:41:52 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 4
+[29-Dec-2025 12:41:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/schoolin/public_html/dashboard/super_admin_dashboard.php:1) in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 7
+[29-Dec-2025 12:42:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/schoolin/public_html/dashboard/super_admin_dashboard.php:1) in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 7
+[29-Dec-2025 12:42:18 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/schoolin/public_html/dashboard/super_admin_dashboard.php:1) in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 7
+[29-Dec-2025 12:42:30 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 4
+[29-Dec-2025 12:42:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/schoolin/public_html/dashboard/super_admin_dashboard.php:1) in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 7
+[29-Dec-2025 12:45:02 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 3
+[29-Dec-2025 12:45:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/schoolin/public_html/dashboard/super_admin_dashboard.php:1) in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 6
+[29-Dec-2025 12:46:12 UTC] PHP Warning:  Undefined array key "fname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:46:12 UTC] PHP Warning:  Undefined array key "lname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:46:12 UTC] PHP Warning:  Undefined array key "fname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:46:12 UTC] PHP Warning:  Undefined array key "lname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:46:12 UTC] PHP Warning:  Undefined array key "fname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:46:12 UTC] PHP Warning:  Undefined array key "lname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:46:12 UTC] PHP Warning:  Undefined array key "fname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:46:12 UTC] PHP Warning:  Undefined array key "lname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:46:12 UTC] PHP Warning:  Undefined array key "fname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:46:12 UTC] PHP Warning:  Undefined array key "lname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:46:12 UTC] PHP Warning:  Undefined array key "fname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:46:12 UTC] PHP Warning:  Undefined array key "lname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:46:12 UTC] PHP Warning:  Undefined array key "fname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:46:12 UTC] PHP Warning:  Undefined array key "lname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:46:12 UTC] PHP Warning:  Undefined array key "fname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:46:12 UTC] PHP Warning:  Undefined array key "lname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:46:12 UTC] PHP Warning:  Undefined array key "fname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:46:12 UTC] PHP Warning:  Undefined array key "lname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:46:12 UTC] PHP Warning:  Undefined array key "fname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:46:12 UTC] PHP Warning:  Undefined array key "lname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:46:24 UTC] PHP Warning:  Undefined array key "fname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:46:24 UTC] PHP Warning:  Undefined array key "lname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:46:24 UTC] PHP Warning:  Undefined array key "fname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:46:24 UTC] PHP Warning:  Undefined array key "lname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:46:24 UTC] PHP Warning:  Undefined array key "fname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:46:24 UTC] PHP Warning:  Undefined array key "lname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:46:24 UTC] PHP Warning:  Undefined array key "fname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:46:24 UTC] PHP Warning:  Undefined array key "lname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:46:24 UTC] PHP Warning:  Undefined array key "fname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:46:24 UTC] PHP Warning:  Undefined array key "lname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:46:24 UTC] PHP Warning:  Undefined array key "fname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:46:24 UTC] PHP Warning:  Undefined array key "lname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:46:24 UTC] PHP Warning:  Undefined array key "fname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:46:24 UTC] PHP Warning:  Undefined array key "lname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:46:24 UTC] PHP Warning:  Undefined array key "fname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:46:24 UTC] PHP Warning:  Undefined array key "lname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:46:24 UTC] PHP Warning:  Undefined array key "fname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:46:24 UTC] PHP Warning:  Undefined array key "lname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:46:24 UTC] PHP Warning:  Undefined array key "fname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:46:24 UTC] PHP Warning:  Undefined array key "lname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:47:08 UTC] PHP Warning:  Undefined array key "fname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:47:08 UTC] PHP Warning:  Undefined array key "lname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:47:08 UTC] PHP Warning:  Undefined array key "fname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:47:08 UTC] PHP Warning:  Undefined array key "lname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:47:08 UTC] PHP Warning:  Undefined array key "fname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:47:08 UTC] PHP Warning:  Undefined array key "lname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:47:08 UTC] PHP Warning:  Undefined array key "fname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:47:08 UTC] PHP Warning:  Undefined array key "lname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:47:08 UTC] PHP Warning:  Undefined array key "fname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:47:08 UTC] PHP Warning:  Undefined array key "lname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:47:08 UTC] PHP Warning:  Undefined array key "fname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:47:08 UTC] PHP Warning:  Undefined array key "lname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:47:08 UTC] PHP Warning:  Undefined array key "fname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:47:08 UTC] PHP Warning:  Undefined array key "lname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:47:08 UTC] PHP Warning:  Undefined array key "fname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:47:08 UTC] PHP Warning:  Undefined array key "lname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:47:08 UTC] PHP Warning:  Undefined array key "fname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:47:08 UTC] PHP Warning:  Undefined array key "lname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:47:08 UTC] PHP Warning:  Undefined array key "fname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:47:08 UTC] PHP Warning:  Undefined array key "lname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:59:21 UTC] PHP Warning:  Undefined array key "fname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:59:21 UTC] PHP Warning:  Undefined array key "lname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:59:21 UTC] PHP Warning:  Undefined array key "fname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:59:21 UTC] PHP Warning:  Undefined array key "lname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:59:21 UTC] PHP Warning:  Undefined array key "fname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:59:21 UTC] PHP Warning:  Undefined array key "lname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:59:21 UTC] PHP Warning:  Undefined array key "fname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:59:21 UTC] PHP Warning:  Undefined array key "lname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:59:21 UTC] PHP Warning:  Undefined array key "fname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:59:21 UTC] PHP Warning:  Undefined array key "lname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:59:21 UTC] PHP Warning:  Undefined array key "fname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:59:21 UTC] PHP Warning:  Undefined array key "lname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:59:21 UTC] PHP Warning:  Undefined array key "fname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:59:21 UTC] PHP Warning:  Undefined array key "lname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:59:21 UTC] PHP Warning:  Undefined array key "fname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:59:21 UTC] PHP Warning:  Undefined array key "lname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:59:21 UTC] PHP Warning:  Undefined array key "fname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:59:21 UTC] PHP Warning:  Undefined array key "lname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:59:21 UTC] PHP Warning:  Undefined array key "fname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[29-Dec-2025 12:59:21 UTC] PHP Warning:  Undefined array key "lname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[16-Jan-2026 06:01:27 UTC] PHP Warning:  Undefined array key "fname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[16-Jan-2026 06:01:27 UTC] PHP Warning:  Undefined array key "lname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[16-Jan-2026 06:04:40 UTC] PHP Warning:  Undefined array key "fname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[16-Jan-2026 06:04:40 UTC] PHP Warning:  Undefined array key "lname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[16-Jan-2026 06:19:49 UTC] PHP Warning:  Undefined array key "fname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[16-Jan-2026 06:19:49 UTC] PHP Warning:  Undefined array key "lname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[16-Jan-2026 06:19:53 UTC] PHP Warning:  Undefined array key "fname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[16-Jan-2026 06:19:53 UTC] PHP Warning:  Undefined array key "lname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[16-Jan-2026 06:59:02 UTC] PHP Warning:  Undefined array key "fname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[16-Jan-2026 06:59:02 UTC] PHP Warning:  Undefined array key "lname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[16-Jan-2026 07:36:39 UTC] PHP Warning:  Undefined array key "fname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[16-Jan-2026 07:36:39 UTC] PHP Warning:  Undefined array key "lname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[16-Jan-2026 07:37:39 UTC] PHP Warning:  Undefined array key "fname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[16-Jan-2026 07:37:39 UTC] PHP Warning:  Undefined array key "lname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[16-Jan-2026 08:02:46 UTC] PHP Warning:  Undefined array key "fname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[16-Jan-2026 08:02:46 UTC] PHP Warning:  Undefined array key "lname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[16-Jan-2026 09:28:20 UTC] PHP Warning:  Undefined array key "fname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[16-Jan-2026 09:28:20 UTC] PHP Warning:  Undefined array key "lname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[16-Jan-2026 09:46:49 UTC] PHP Warning:  Undefined array key "fname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[16-Jan-2026 09:46:49 UTC] PHP Warning:  Undefined array key "lname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[16-Jan-2026 09:49:15 UTC] PHP Warning:  Undefined array key "fname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[16-Jan-2026 09:49:15 UTC] PHP Warning:  Undefined array key "lname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[16-Jan-2026 09:49:27 UTC] PHP Warning:  Undefined array key "fname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[16-Jan-2026 09:49:27 UTC] PHP Warning:  Undefined array key "lname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[16-Jan-2026 09:51:40 UTC] PHP Warning:  Undefined array key "fname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[16-Jan-2026 09:51:40 UTC] PHP Warning:  Undefined array key "lname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[16-Jan-2026 09:54:03 UTC] PHP Warning:  Undefined array key "fname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[16-Jan-2026 09:54:03 UTC] PHP Warning:  Undefined array key "lname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[16-Jan-2026 10:00:34 UTC] PHP Warning:  Undefined array key "fname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[16-Jan-2026 10:00:34 UTC] PHP Warning:  Undefined array key "lname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[16-Jan-2026 10:05:11 UTC] PHP Warning:  Undefined array key "fname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[16-Jan-2026 10:05:11 UTC] PHP Warning:  Undefined array key "lname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[17-Jan-2026 13:18:04 UTC] PHP Warning:  Undefined array key "fname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[17-Jan-2026 13:18:04 UTC] PHP Warning:  Undefined array key "lname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[17-Jan-2026 13:18:53 UTC] PHP Warning:  Undefined array key "fname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[17-Jan-2026 13:18:53 UTC] PHP Warning:  Undefined array key "lname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[17-Jan-2026 13:19:00 UTC] PHP Warning:  Undefined array key "fname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[17-Jan-2026 13:19:00 UTC] PHP Warning:  Undefined array key "lname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[17-Jan-2026 13:19:19 UTC] PHP Warning:  Undefined array key "fname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[17-Jan-2026 13:19:19 UTC] PHP Warning:  Undefined array key "lname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[18-Jan-2026 09:21:26 UTC] PHP Warning:  Undefined array key "fname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[18-Jan-2026 09:21:26 UTC] PHP Warning:  Undefined array key "lname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[18-Jan-2026 09:22:13 UTC] PHP Warning:  Undefined array key "fname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[18-Jan-2026 09:22:13 UTC] PHP Warning:  Undefined array key "lname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[18-Jan-2026 09:22:38 UTC] PHP Parse error:  syntax error, unexpected token ">" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 337
+[18-Jan-2026 09:27:19 UTC] PHP Warning:  Undefined array key "fname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[18-Jan-2026 09:27:19 UTC] PHP Warning:  Undefined array key "lname" in /home/schoolin/public_html/dashboard/super_admin_dashboard.php on line 342
+[23-Jan-2026 11:05:13 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/schoolin/public_html/config/database.php:8
+Stack trace:
+#0 /home/schoolin/public_html/config/database.php(8): mysqli->__construct('localhost', 'schoolin_school', Object(SensitiveParameterValue), 'schoolin_school...', '8889')
+#1 /home/schoolin/public_html/dashboard/super_admin_dashboard.php(10): include('/home/schoolin/...')
+#2 {main}
+  thrown in /home/schoolin/public_html/config/database.php on line 8

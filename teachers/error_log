@@ -1,0 +1,798 @@
+[03-Jan-2026 14:25:32 UTC] PHP Warning:  Undefined variable $teacher_table_id in /home/schoolin/public_html/teachers/teacher_edit.php on line 147
+[03-Jan-2026 14:25:32 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/schoolin/public_html/teachers/teacher_edit.php on line 149
+[03-Jan-2026 14:25:32 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/schoolin/public_html/teachers/teacher_edit.php on line 150
+[03-Jan-2026 14:40:27 UTC] PHP Warning:  Undefined variable $teacher_table_id in /home/schoolin/public_html/teachers/teacher_edit.php on line 147
+[03-Jan-2026 14:40:27 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/schoolin/public_html/teachers/teacher_edit.php on line 149
+[03-Jan-2026 14:40:27 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/schoolin/public_html/teachers/teacher_edit.php on line 150
+[03-Jan-2026 15:28:48 UTC] DEBUG: Salary management page accessed
+[03-Jan-2026 15:28:48 UTC] DEBUG: After including database and alert_helper
+[03-Jan-2026 15:28:48 UTC] DEBUG: Teacher ID: 9
+[03-Jan-2026 15:28:48 UTC] DEBUG: SQL Query: SELECT t.*, u.email, u.phone 
+                FROM teachers t 
+                JOIN users u ON t.user_id = u.id 
+                WHERE t.id = ? AND t.status = 1
+[03-Jan-2026 15:28:48 UTC] DEBUG: Teacher found: Maya Bell
+[03-Jan-2026 15:28:48 UTC] DEBUG: Selected year: 2026
+[03-Jan-2026 15:28:48 UTC] DEBUG: Join year: 2025
+[03-Jan-2026 15:28:48 UTC] DEBUG: Current year: 2026
+[03-Jan-2026 15:28:48 UTC] DEBUG: Generating months from 1 to 1
+[03-Jan-2026 15:28:48 UTC] DEBUG: Generated 1 months
+[03-Jan-2026 15:28:48 UTC] DEBUG: Summary - Paid: 0, Cancelled: 0, Pending: 1
+[03-Jan-2026 15:28:48 UTC] DEBUG: Page processing complete, starting HTML output
+[03-Jan-2026 16:22:02 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'notes' in 'SELECT' in /home/schoolin/public_html/teachers/salary_management.php:185
+Stack trace:
+#0 /home/schoolin/public_html/teachers/salary_management.php(185): mysqli->prepare('SELECT status, ...')
+#1 {main}
+  thrown in /home/schoolin/public_html/teachers/salary_management.php on line 185
+[03-Jan-2026 16:53:31 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'notes' in 'SELECT' in /home/schoolin/public_html/teachers/salary_management.php:194
+Stack trace:
+#0 /home/schoolin/public_html/teachers/salary_management.php(194): mysqli->prepare('SELECT status, ...')
+#1 {main}
+  thrown in /home/schoolin/public_html/teachers/salary_management.php on line 194
+[03-Jan-2026 16:53:40 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'notes' in 'SELECT' in /home/schoolin/public_html/teachers/salary_management.php:194
+Stack trace:
+#0 /home/schoolin/public_html/teachers/salary_management.php(194): mysqli->prepare('SELECT status, ...')
+#1 {main}
+  thrown in /home/schoolin/public_html/teachers/salary_management.php on line 194
+[03-Jan-2026 17:02:54 UTC] DEBUG [Salary Management]: Session started
+[03-Jan-2026 17:02:54 UTC] DEBUG [Salary Management]: User authenticated: 88, Role: super_admin
+[03-Jan-2026 17:02:54 UTC] DEBUG [Salary Management]: Database connected successfully
+[03-Jan-2026 17:02:54 UTC] DEBUG [Salary Management]: Processing salary for teacher ID: 9
+[03-Jan-2026 17:02:54 UTC] DEBUG [Salary Management]: Teacher found: Maya Bell (Code: TCHR0153)
+[03-Jan-2026 17:02:54 UTC] DEBUG [Salary Management]: Selected year: 2026, Join year: 2025, Current year: 2026
+[03-Jan-2026 17:02:54 UTC] DEBUG [Salary Management]: Generating months from 1 to 1 for year 2026
+[03-Jan-2026 17:02:54 UTC] DEBUG [Salary Management]: Month 01-2026: Status=pending, Net Salary=64000, Leaves: Absent=0, Office=0
+[03-Jan-2026 17:02:54 UTC] DEBUG [Salary Management]: Generated 1 months for display
+[03-Jan-2026 17:02:54 UTC] DEBUG [Salary Management]: Summary - Paid: 0, Cancelled: 0, Pending: 1, Total Paid: 0
+[03-Jan-2026 17:02:54 UTC] DEBUG [Salary Management]: Payment history records: 0
+[03-Jan-2026 17:02:54 UTC] DEBUG [Salary Management]: Years list generated: 2026, 2025
+[03-Jan-2026 17:02:54 UTC] DEBUG [Salary Management]: Page rendering started
+[03-Jan-2026 17:03:04 UTC] DEBUG [Salary Management]: Session started
+[03-Jan-2026 17:03:04 UTC] DEBUG [Salary Management]: User authenticated: 88, Role: super_admin
+[03-Jan-2026 17:03:04 UTC] DEBUG [Salary Management]: Database connected successfully
+[03-Jan-2026 17:03:04 UTC] DEBUG [Salary Management]: Processing salary for teacher ID: 9
+[03-Jan-2026 17:03:04 UTC] DEBUG [Salary Management]: Teacher found: Maya Bell (Code: TCHR0153)
+[03-Jan-2026 17:03:04 UTC] DEBUG [Salary Management]: Selected year: 2026, Join year: 2025, Current year: 2026
+[03-Jan-2026 17:03:04 UTC] DEBUG [Salary Management]: Generating months from 1 to 1 for year 2026
+[03-Jan-2026 17:03:04 UTC] DEBUG [Salary Management]: Month 01-2026: Status=pending, Net Salary=64000, Leaves: Absent=0, Office=0
+[03-Jan-2026 17:03:04 UTC] DEBUG [Salary Management]: Generated 1 months for display
+[03-Jan-2026 17:03:04 UTC] DEBUG [Salary Management]: Summary - Paid: 0, Cancelled: 0, Pending: 1, Total Paid: 0
+[03-Jan-2026 17:03:04 UTC] DEBUG [Salary Management]: Payment history records: 0
+[03-Jan-2026 17:03:04 UTC] DEBUG [Salary Management]: Years list generated: 2026, 2025
+[03-Jan-2026 17:03:04 UTC] DEBUG [Salary Management]: Page rendering started
+[03-Jan-2026 17:04:29 UTC] DEBUG [Salary Management]: Session started
+[03-Jan-2026 17:04:29 UTC] DEBUG [Salary Management]: User authenticated: 88, Role: super_admin
+[03-Jan-2026 17:04:29 UTC] DEBUG [Salary Management]: Database connected successfully
+[03-Jan-2026 17:04:29 UTC] DEBUG [Salary Management]: Processing salary for teacher ID: 9
+[03-Jan-2026 17:04:29 UTC] DEBUG [Salary Management]: Teacher found: Maya Bell (Code: TCHR0153)
+[03-Jan-2026 17:04:29 UTC] DEBUG [Salary Management]: Selected year: 2026, Join year: 2025, Current year: 2026
+[03-Jan-2026 17:04:29 UTC] DEBUG [Salary Management]: POST request received
+[03-Jan-2026 17:04:29 UTC] DEBUG [Salary Management]: Processing salary action
+[03-Jan-2026 17:04:29 UTC] DEBUG [Salary Management]: Action: pay, Month: 01-2026, Allowance: 0, Deduction: 0
+[03-Jan-2026 17:04:29 UTC] DEBUG [Salary Management]: Salary calculation - Basic: 64000.00, Net: 64000
+[03-Jan-2026 17:04:29 UTC] DEBUG [Salary Management]: Inserting new paid record for 01-2026
+[03-Jan-2026 17:04:29 UTC] DEBUG [Salary Management]: Salary payment successful for 01-2026
+[03-Jan-2026 17:04:29 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'schoolin_school_india_junior.activity_logs' doesn't exist in /home/schoolin/public_html/teachers/salary_management.php:277
+Stack trace:
+#0 /home/schoolin/public_html/teachers/salary_management.php(277): mysqli->prepare('INSERT INTO act...')
+#1 {main}
+  thrown in /home/schoolin/public_html/teachers/salary_management.php on line 277
+[03-Jan-2026 17:12:13 UTC] DEBUG [Salary Management]: Session started
+[03-Jan-2026 17:12:13 UTC] DEBUG [Salary Management]: User authenticated: 88, Role: super_admin
+[03-Jan-2026 17:12:13 UTC] DEBUG [Salary Management]: Database connected successfully
+[03-Jan-2026 17:12:13 UTC] DEBUG [Salary Management]: Processing salary for teacher ID: 9
+[03-Jan-2026 17:12:13 UTC] DEBUG [Salary Management]: Teacher found: Maya Bell (Code: TCHR0153)
+[03-Jan-2026 17:12:13 UTC] DEBUG [Salary Management]: Selected year: 2026, Join year: 2025, Current year: 2026
+[03-Jan-2026 17:12:13 UTC] DEBUG [Salary Management]: POST request received
+[03-Jan-2026 17:12:13 UTC] DEBUG [Salary Management]: Processing salary action
+[03-Jan-2026 17:12:13 UTC] DEBUG [Salary Management]: Action: pay, Month: 01-2026, Allowance: 0, Deduction: 0
+[03-Jan-2026 17:12:13 UTC] DEBUG [Salary Management]: Salary calculation - Basic: 64000.00, Net: 64000
+[03-Jan-2026 17:12:13 UTC] DEBUG [Salary Management]: Salary already paid for 01-2026
+[03-Jan-2026 17:12:14 UTC] DEBUG [Salary Management]: Session started
+[03-Jan-2026 17:12:14 UTC] DEBUG [Salary Management]: User authenticated: 88, Role: super_admin
+[03-Jan-2026 17:12:14 UTC] DEBUG [Salary Management]: Database connected successfully
+[03-Jan-2026 17:12:14 UTC] DEBUG [Salary Management]: Processing salary for teacher ID: 9
+[03-Jan-2026 17:12:14 UTC] DEBUG [Salary Management]: Teacher found: Maya Bell (Code: TCHR0153)
+[03-Jan-2026 17:12:14 UTC] DEBUG [Salary Management]: Selected year: 2026, Join year: 2025, Current year: 2026
+[03-Jan-2026 17:12:14 UTC] DEBUG [Salary Management]: Generating months from 1 to 1 for year 2026
+[03-Jan-2026 17:12:14 UTC] DEBUG [Salary Management]: Month 01-2026: Status=paid, Net Salary=64000.00, Leaves: Absent=0, Office=0
+[03-Jan-2026 17:12:14 UTC] DEBUG [Salary Management]: Generated 1 months for display
+[03-Jan-2026 17:12:14 UTC] DEBUG [Salary Management]: Summary - Paid: 1, Cancelled: 0, Pending: 0, Total Paid: 64000.00
+[03-Jan-2026 17:12:14 UTC] DEBUG [Salary Management]: Payment history records: 1
+[03-Jan-2026 17:12:14 UTC] DEBUG [Salary Management]: Years list generated: 2026, 2025
+[03-Jan-2026 17:12:14 UTC] DEBUG [Salary Management]: Page rendering started
+[03-Jan-2026 17:12:26 UTC] DEBUG [Salary Management]: Session started
+[03-Jan-2026 17:12:26 UTC] DEBUG [Salary Management]: User authenticated: 88, Role: super_admin
+[03-Jan-2026 17:12:26 UTC] DEBUG [Salary Management]: Database connected successfully
+[03-Jan-2026 17:12:26 UTC] DEBUG [Salary Management]: Processing salary for teacher ID: 9
+[03-Jan-2026 17:12:26 UTC] DEBUG [Salary Management]: Teacher found: Maya Bell (Code: TCHR0153)
+[03-Jan-2026 17:12:26 UTC] DEBUG [Salary Management]: Selected year: 2026, Join year: 2025, Current year: 2026
+[03-Jan-2026 17:12:26 UTC] DEBUG [Salary Management]: POST request received
+[03-Jan-2026 17:12:26 UTC] DEBUG [Salary Management]: Processing salary action
+[03-Jan-2026 17:12:26 UTC] DEBUG [Salary Management]: Action: cancel, Month: 01-2026, Allowance: 0, Deduction: 0
+[03-Jan-2026 17:12:26 UTC] DEBUG [Salary Management]: Salary calculation - Basic: 64000.00, Net: 64000
+[03-Jan-2026 17:12:26 UTC] DEBUG [Salary Management]: Updating existing record to cancelled for 01-2026
+[03-Jan-2026 17:12:26 UTC] DEBUG [Salary Management]: Salary cancellation successful for 01-2026
+[03-Jan-2026 17:12:26 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'schoolin_school_india_junior.activity_logs' doesn't exist in /home/schoolin/public_html/teachers/salary_management.php:277
+Stack trace:
+#0 /home/schoolin/public_html/teachers/salary_management.php(277): mysqli->prepare('INSERT INTO act...')
+#1 {main}
+  thrown in /home/schoolin/public_html/teachers/salary_management.php on line 277
+[03-Jan-2026 17:12:29 UTC] DEBUG [Salary Management]: Session started
+[03-Jan-2026 17:12:29 UTC] DEBUG [Salary Management]: User authenticated: 88, Role: super_admin
+[03-Jan-2026 17:12:29 UTC] DEBUG [Salary Management]: Database connected successfully
+[03-Jan-2026 17:12:29 UTC] DEBUG [Salary Management]: Processing salary for teacher ID: 9
+[03-Jan-2026 17:12:29 UTC] DEBUG [Salary Management]: Teacher found: Maya Bell (Code: TCHR0153)
+[03-Jan-2026 17:12:29 UTC] DEBUG [Salary Management]: Selected year: 2026, Join year: 2025, Current year: 2026
+[03-Jan-2026 17:12:29 UTC] DEBUG [Salary Management]: POST request received
+[03-Jan-2026 17:12:29 UTC] DEBUG [Salary Management]: Processing salary action
+[03-Jan-2026 17:12:29 UTC] DEBUG [Salary Management]: Action: cancel, Month: 01-2026, Allowance: 0, Deduction: 0
+[03-Jan-2026 17:12:29 UTC] DEBUG [Salary Management]: Salary calculation - Basic: 64000.00, Net: 64000
+[03-Jan-2026 17:12:29 UTC] DEBUG [Salary Management]: Salary already cancelled for 01-2026
+[03-Jan-2026 17:12:29 UTC] DEBUG [Salary Management]: Session started
+[03-Jan-2026 17:12:29 UTC] DEBUG [Salary Management]: User authenticated: 88, Role: super_admin
+[03-Jan-2026 17:12:29 UTC] DEBUG [Salary Management]: Database connected successfully
+[03-Jan-2026 17:12:29 UTC] DEBUG [Salary Management]: Processing salary for teacher ID: 9
+[03-Jan-2026 17:12:29 UTC] DEBUG [Salary Management]: Teacher found: Maya Bell (Code: TCHR0153)
+[03-Jan-2026 17:12:29 UTC] DEBUG [Salary Management]: Selected year: 2026, Join year: 2025, Current year: 2026
+[03-Jan-2026 17:12:29 UTC] DEBUG [Salary Management]: Generating months from 1 to 1 for year 2026
+[03-Jan-2026 17:12:29 UTC] DEBUG [Salary Management]: Month 01-2026: Status=cancelled, Net Salary=64000.00, Leaves: Absent=0, Office=0
+[03-Jan-2026 17:12:29 UTC] DEBUG [Salary Management]: Generated 1 months for display
+[03-Jan-2026 17:12:29 UTC] DEBUG [Salary Management]: Summary - Paid: 0, Cancelled: 1, Pending: 0, Total Paid: 0.00
+[03-Jan-2026 17:12:29 UTC] DEBUG [Salary Management]: Payment history records: 1
+[03-Jan-2026 17:12:29 UTC] DEBUG [Salary Management]: Years list generated: 2026, 2025
+[03-Jan-2026 17:12:29 UTC] DEBUG [Salary Management]: Page rendering started
+[03-Jan-2026 17:12:36 UTC] DEBUG [Salary Management]: Session started
+[03-Jan-2026 17:12:36 UTC] DEBUG [Salary Management]: User authenticated: 88, Role: super_admin
+[03-Jan-2026 17:12:36 UTC] DEBUG [Salary Management]: Database connected successfully
+[03-Jan-2026 17:12:36 UTC] DEBUG [Salary Management]: Processing salary for teacher ID: 9
+[03-Jan-2026 17:12:36 UTC] DEBUG [Salary Management]: Teacher found: Maya Bell (Code: TCHR0153)
+[03-Jan-2026 17:12:36 UTC] DEBUG [Salary Management]: Selected year: 2026, Join year: 2025, Current year: 2026
+[03-Jan-2026 17:12:36 UTC] DEBUG [Salary Management]: Generating months from 1 to 1 for year 2026
+[03-Jan-2026 17:12:36 UTC] DEBUG [Salary Management]: Month 01-2026: Status=cancelled, Net Salary=64000.00, Leaves: Absent=0, Office=0
+[03-Jan-2026 17:12:36 UTC] DEBUG [Salary Management]: Generated 1 months for display
+[03-Jan-2026 17:12:36 UTC] DEBUG [Salary Management]: Summary - Paid: 0, Cancelled: 1, Pending: 0, Total Paid: 0.00
+[03-Jan-2026 17:12:36 UTC] DEBUG [Salary Management]: Payment history records: 1
+[03-Jan-2026 17:12:36 UTC] DEBUG [Salary Management]: Years list generated: 2026, 2025
+[03-Jan-2026 17:12:36 UTC] DEBUG [Salary Management]: Page rendering started
+[03-Jan-2026 17:12:49 UTC] DEBUG [Salary Management]: Session started
+[03-Jan-2026 17:12:49 UTC] DEBUG [Salary Management]: User authenticated: 88, Role: super_admin
+[03-Jan-2026 17:12:49 UTC] DEBUG [Salary Management]: Database connected successfully
+[03-Jan-2026 17:12:49 UTC] DEBUG [Salary Management]: Processing salary for teacher ID: 9
+[03-Jan-2026 17:12:49 UTC] DEBUG [Salary Management]: Teacher found: Maya Bell (Code: TCHR0153)
+[03-Jan-2026 17:12:49 UTC] DEBUG [Salary Management]: Selected year: 2026, Join year: 2025, Current year: 2026
+[03-Jan-2026 17:12:49 UTC] DEBUG [Salary Management]: POST request received
+[03-Jan-2026 17:12:49 UTC] DEBUG [Salary Management]: Processing salary action
+[03-Jan-2026 17:12:49 UTC] DEBUG [Salary Management]: Action: pay, Month: 01-2026, Allowance: 0, Deduction: 0
+[03-Jan-2026 17:12:49 UTC] DEBUG [Salary Management]: Salary calculation - Basic: 64000.00, Net: 64000
+[03-Jan-2026 17:12:49 UTC] DEBUG [Salary Management]: Updating existing record to paid for 01-2026
+[03-Jan-2026 17:12:49 UTC] DEBUG [Salary Management]: Salary payment successful for 01-2026
+[03-Jan-2026 17:12:49 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'schoolin_school_india_junior.activity_logs' doesn't exist in /home/schoolin/public_html/teachers/salary_management.php:277
+Stack trace:
+#0 /home/schoolin/public_html/teachers/salary_management.php(277): mysqli->prepare('INSERT INTO act...')
+#1 {main}
+  thrown in /home/schoolin/public_html/teachers/salary_management.php on line 277
+[03-Jan-2026 17:16:36 UTC] DEBUG [Salary Management]: Session started
+[03-Jan-2026 17:16:36 UTC] DEBUG [Salary Management]: User authenticated: 88, Role: super_admin
+[03-Jan-2026 17:16:36 UTC] DEBUG [Salary Management]: Database connected successfully
+[03-Jan-2026 17:16:36 UTC] DEBUG [Salary Management]: Processing salary for teacher ID: 9
+[03-Jan-2026 17:16:36 UTC] DEBUG [Salary Management]: Teacher found: Maya Bell (Code: TCHR0153)
+[03-Jan-2026 17:16:36 UTC] DEBUG [Salary Management]: Selected year: 2026, Join year: 2025, Current year: 2026
+[03-Jan-2026 17:16:36 UTC] DEBUG [Salary Management]: Generating months from 1 to 1 for year 2026
+[03-Jan-2026 17:16:36 UTC] DEBUG [Salary Management]: Month 01-2026: Status=paid, Net Salary=64000.00, Leaves: Absent=0, Office=0
+[03-Jan-2026 17:16:36 UTC] DEBUG [Salary Management]: Generated 1 months for display
+[03-Jan-2026 17:16:36 UTC] DEBUG [Salary Management]: Summary - Paid: 1, Cancelled: 0, Pending: 0, Total Paid: 64000.00
+[03-Jan-2026 17:16:36 UTC] DEBUG [Salary Management]: Payment history records: 1
+[03-Jan-2026 17:16:36 UTC] DEBUG [Salary Management]: Years list generated: 2026, 2025
+[03-Jan-2026 17:16:36 UTC] DEBUG [Salary Management]: Page rendering started
+[03-Jan-2026 17:16:37 UTC] DEBUG [Salary Management]: Session started
+[03-Jan-2026 17:16:37 UTC] DEBUG [Salary Management]: User authenticated: 88, Role: super_admin
+[03-Jan-2026 17:16:37 UTC] DEBUG [Salary Management]: Database connected successfully
+[03-Jan-2026 17:16:37 UTC] DEBUG [Salary Management]: Processing salary for teacher ID: 9
+[03-Jan-2026 17:16:37 UTC] DEBUG [Salary Management]: Teacher found: Maya Bell (Code: TCHR0153)
+[03-Jan-2026 17:16:37 UTC] DEBUG [Salary Management]: Selected year: 2026, Join year: 2025, Current year: 2026
+[03-Jan-2026 17:16:37 UTC] DEBUG [Salary Management]: Generating months from 1 to 1 for year 2026
+[03-Jan-2026 17:16:37 UTC] DEBUG [Salary Management]: Month 01-2026: Status=paid, Net Salary=64000.00, Leaves: Absent=0, Office=0
+[03-Jan-2026 17:16:37 UTC] DEBUG [Salary Management]: Generated 1 months for display
+[03-Jan-2026 17:16:37 UTC] DEBUG [Salary Management]: Summary - Paid: 1, Cancelled: 0, Pending: 0, Total Paid: 64000.00
+[03-Jan-2026 17:16:37 UTC] DEBUG [Salary Management]: Payment history records: 1
+[03-Jan-2026 17:16:37 UTC] DEBUG [Salary Management]: Years list generated: 2026, 2025
+[03-Jan-2026 17:16:37 UTC] DEBUG [Salary Management]: Page rendering started
+[03-Jan-2026 17:16:43 UTC] DEBUG [Salary Management]: Session started
+[03-Jan-2026 17:16:43 UTC] DEBUG [Salary Management]: User authenticated: 88, Role: super_admin
+[03-Jan-2026 17:16:43 UTC] DEBUG [Salary Management]: Database connected successfully
+[03-Jan-2026 17:16:43 UTC] DEBUG [Salary Management]: Processing salary for teacher ID: 9
+[03-Jan-2026 17:16:43 UTC] DEBUG [Salary Management]: Teacher found: Maya Bell (Code: TCHR0153)
+[03-Jan-2026 17:16:43 UTC] DEBUG [Salary Management]: Selected year: 2026, Join year: 2025, Current year: 2026
+[03-Jan-2026 17:16:43 UTC] DEBUG [Salary Management]: POST request received
+[03-Jan-2026 17:16:43 UTC] DEBUG [Salary Management]: Processing salary action
+[03-Jan-2026 17:16:43 UTC] DEBUG [Salary Management]: Action: cancel, Month: 01-2026, Allowance: 0, Deduction: 0
+[03-Jan-2026 17:16:43 UTC] DEBUG [Salary Management]: Salary calculation - Basic: 64000.00, Net: 64000
+[03-Jan-2026 17:16:43 UTC] DEBUG [Salary Management]: Updating existing record to cancelled for 01-2026
+[03-Jan-2026 17:16:43 UTC] DEBUG [Salary Management]: Salary cancellation successful for 01-2026
+[03-Jan-2026 17:16:43 UTC] DEBUG [Salary Management]: Activity logged: Salary Cancelled
+[03-Jan-2026 17:16:43 UTC] DEBUG [Salary Management]: Session started
+[03-Jan-2026 17:16:43 UTC] DEBUG [Salary Management]: User authenticated: 88, Role: super_admin
+[03-Jan-2026 17:16:43 UTC] DEBUG [Salary Management]: Database connected successfully
+[03-Jan-2026 17:16:43 UTC] DEBUG [Salary Management]: Processing salary for teacher ID: 9
+[03-Jan-2026 17:16:43 UTC] DEBUG [Salary Management]: Teacher found: Maya Bell (Code: TCHR0153)
+[03-Jan-2026 17:16:43 UTC] DEBUG [Salary Management]: Selected year: 2026, Join year: 2025, Current year: 2026
+[03-Jan-2026 17:16:43 UTC] DEBUG [Salary Management]: Generating months from 1 to 1 for year 2026
+[03-Jan-2026 17:16:43 UTC] DEBUG [Salary Management]: Month 01-2026: Status=cancelled, Net Salary=64000.00, Leaves: Absent=0, Office=0
+[03-Jan-2026 17:16:43 UTC] DEBUG [Salary Management]: Generated 1 months for display
+[03-Jan-2026 17:16:43 UTC] DEBUG [Salary Management]: Summary - Paid: 0, Cancelled: 1, Pending: 0, Total Paid: 0.00
+[03-Jan-2026 17:16:43 UTC] DEBUG [Salary Management]: Payment history records: 1
+[03-Jan-2026 17:16:43 UTC] DEBUG [Salary Management]: Years list generated: 2026, 2025
+[03-Jan-2026 17:16:43 UTC] DEBUG [Salary Management]: Page rendering started
+[03-Jan-2026 17:19:11 UTC] DEBUG [Salary Management]: Session started
+[03-Jan-2026 17:19:11 UTC] DEBUG [Salary Management]: User authenticated: 88, Role: super_admin
+[03-Jan-2026 17:19:11 UTC] DEBUG [Salary Management]: Database connected successfully
+[03-Jan-2026 17:19:11 UTC] DEBUG [Salary Management]: Processing salary for teacher ID: 9
+[03-Jan-2026 17:19:11 UTC] DEBUG [Salary Management]: Teacher found: Maya Bell (Code: TCHR0153)
+[03-Jan-2026 17:19:11 UTC] DEBUG [Salary Management]: Selected year: 2025, Join year: 2025, Current year: 2026
+[03-Jan-2026 17:19:11 UTC] DEBUG [Salary Management]: Generating months from 5 to 12 for year 2025
+[03-Jan-2026 17:19:11 UTC] DEBUG [Salary Management]: Month 05-2025: Status=pending, Net Salary=64000, Leaves: Absent=0, Office=0
+[03-Jan-2026 17:19:11 UTC] DEBUG [Salary Management]: Month 06-2025: Status=pending, Net Salary=64000, Leaves: Absent=0, Office=0
+[03-Jan-2026 17:19:11 UTC] DEBUG [Salary Management]: Month 07-2025: Status=pending, Net Salary=64000, Leaves: Absent=0, Office=0
+[03-Jan-2026 17:19:11 UTC] DEBUG [Salary Management]: Month 08-2025: Status=pending, Net Salary=64000, Leaves: Absent=0, Office=0
+[03-Jan-2026 17:19:11 UTC] DEBUG [Salary Management]: Month 09-2025: Status=pending, Net Salary=64000, Leaves: Absent=0, Office=0
+[03-Jan-2026 17:19:11 UTC] DEBUG [Salary Management]: Month 10-2025: Status=pending, Net Salary=64000, Leaves: Absent=0, Office=0
+[03-Jan-2026 17:19:11 UTC] DEBUG [Salary Management]: Month 11-2025: Status=pending, Net Salary=64000, Leaves: Absent=0, Office=0
+[03-Jan-2026 17:19:11 UTC] DEBUG [Salary Management]: Month 12-2025: Status=pending, Net Salary=64000, Leaves: Absent=0, Office=0
+[03-Jan-2026 17:19:11 UTC] DEBUG [Salary Management]: Generated 8 months for display
+[03-Jan-2026 17:19:11 UTC] DEBUG [Salary Management]: Summary - Paid: 0, Cancelled: 0, Pending: 8, Total Paid: 0
+[03-Jan-2026 17:19:11 UTC] DEBUG [Salary Management]: Payment history records: 1
+[03-Jan-2026 17:19:11 UTC] DEBUG [Salary Management]: Years list generated: 2026, 2025
+[03-Jan-2026 17:19:11 UTC] DEBUG [Salary Management]: Page rendering started
+[03-Jan-2026 17:19:23 UTC] DEBUG [Salary Management]: Session started
+[03-Jan-2026 17:19:23 UTC] DEBUG [Salary Management]: User authenticated: 88, Role: super_admin
+[03-Jan-2026 17:19:23 UTC] DEBUG [Salary Management]: Database connected successfully
+[03-Jan-2026 17:19:23 UTC] DEBUG [Salary Management]: Processing salary for teacher ID: 9
+[03-Jan-2026 17:19:23 UTC] DEBUG [Salary Management]: Teacher found: Maya Bell (Code: TCHR0153)
+[03-Jan-2026 17:19:23 UTC] DEBUG [Salary Management]: Selected year: 2026, Join year: 2025, Current year: 2026
+[03-Jan-2026 17:19:23 UTC] DEBUG [Salary Management]: Generating months from 1 to 1 for year 2026
+[03-Jan-2026 17:19:23 UTC] DEBUG [Salary Management]: Month 01-2026: Status=cancelled, Net Salary=64000.00, Leaves: Absent=0, Office=0
+[03-Jan-2026 17:19:23 UTC] DEBUG [Salary Management]: Generated 1 months for display
+[03-Jan-2026 17:19:23 UTC] DEBUG [Salary Management]: Summary - Paid: 0, Cancelled: 1, Pending: 0, Total Paid: 0.00
+[03-Jan-2026 17:19:23 UTC] DEBUG [Salary Management]: Payment history records: 1
+[03-Jan-2026 17:19:23 UTC] DEBUG [Salary Management]: Years list generated: 2026, 2025
+[03-Jan-2026 17:19:23 UTC] DEBUG [Salary Management]: Page rendering started
+[03-Jan-2026 17:20:13 UTC] DEBUG [Salary Management]: Session started
+[03-Jan-2026 17:20:13 UTC] DEBUG [Salary Management]: User authenticated: 88, Role: super_admin
+[03-Jan-2026 17:20:13 UTC] DEBUG [Salary Management]: Database connected successfully
+[03-Jan-2026 17:20:13 UTC] DEBUG [Salary Management]: Processing salary for teacher ID: 11
+[03-Jan-2026 17:20:13 UTC] DEBUG [Salary Management]: Teacher found: Piper English (Code: TCHR0155)
+[03-Jan-2026 17:20:13 UTC] DEBUG [Salary Management]: Selected year: 2026, Join year: 1994, Current year: 2026
+[03-Jan-2026 17:20:13 UTC] DEBUG [Salary Management]: Generating months from 1 to 1 for year 2026
+[03-Jan-2026 17:20:13 UTC] DEBUG [Salary Management]: Month 01-2026: Status=pending, Net Salary=100, Leaves: Absent=0, Office=0
+[03-Jan-2026 17:20:13 UTC] DEBUG [Salary Management]: Generated 1 months for display
+[03-Jan-2026 17:20:13 UTC] DEBUG [Salary Management]: Summary - Paid: 0, Cancelled: 0, Pending: 1, Total Paid: 0
+[03-Jan-2026 17:20:13 UTC] DEBUG [Salary Management]: Payment history records: 0
+[03-Jan-2026 17:20:13 UTC] DEBUG [Salary Management]: Years list generated: 2026, 2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011, 2010, 2009, 2008, 2007, 2006, 2005, 2004, 2003, 2002, 2001, 2000, 1999, 1998, 1997, 1996, 1995, 1994
+[03-Jan-2026 17:20:13 UTC] DEBUG [Salary Management]: Page rendering started
+[03-Jan-2026 17:20:21 UTC] DEBUG [Salary Management]: Session started
+[03-Jan-2026 17:20:21 UTC] DEBUG [Salary Management]: User authenticated: 88, Role: super_admin
+[03-Jan-2026 17:20:21 UTC] DEBUG [Salary Management]: Database connected successfully
+[03-Jan-2026 17:20:21 UTC] DEBUG [Salary Management]: Processing salary for teacher ID: 9
+[03-Jan-2026 17:20:21 UTC] DEBUG [Salary Management]: Teacher found: Maya Bell (Code: TCHR0153)
+[03-Jan-2026 17:20:21 UTC] DEBUG [Salary Management]: Selected year: 2026, Join year: 2025, Current year: 2026
+[03-Jan-2026 17:20:21 UTC] DEBUG [Salary Management]: Generating months from 1 to 1 for year 2026
+[03-Jan-2026 17:20:21 UTC] DEBUG [Salary Management]: Month 01-2026: Status=cancelled, Net Salary=64000.00, Leaves: Absent=0, Office=0
+[03-Jan-2026 17:20:21 UTC] DEBUG [Salary Management]: Generated 1 months for display
+[03-Jan-2026 17:20:21 UTC] DEBUG [Salary Management]: Summary - Paid: 0, Cancelled: 1, Pending: 0, Total Paid: 0.00
+[03-Jan-2026 17:20:21 UTC] DEBUG [Salary Management]: Payment history records: 1
+[03-Jan-2026 17:20:21 UTC] DEBUG [Salary Management]: Years list generated: 2026, 2025
+[03-Jan-2026 17:20:21 UTC] DEBUG [Salary Management]: Page rendering started
+[03-Jan-2026 17:20:24 UTC] DEBUG [Salary Management]: Session started
+[03-Jan-2026 17:20:24 UTC] DEBUG [Salary Management]: User authenticated: 88, Role: super_admin
+[03-Jan-2026 17:20:24 UTC] DEBUG [Salary Management]: Database connected successfully
+[03-Jan-2026 17:20:24 UTC] DEBUG [Salary Management]: Processing salary for teacher ID: 12
+[03-Jan-2026 17:20:24 UTC] DEBUG [Salary Management]: Teacher found: Aline Grant (Code: TCHR0156)
+[03-Jan-2026 17:20:24 UTC] DEBUG [Salary Management]: Selected year: 2026, Join year: 2018, Current year: 2026
+[03-Jan-2026 17:20:24 UTC] DEBUG [Salary Management]: Generating months from 1 to 1 for year 2026
+[03-Jan-2026 17:20:24 UTC] DEBUG [Salary Management]: Month 01-2026: Status=pending, Net Salary=42, Leaves: Absent=0, Office=0
+[03-Jan-2026 17:20:24 UTC] DEBUG [Salary Management]: Generated 1 months for display
+[03-Jan-2026 17:20:24 UTC] DEBUG [Salary Management]: Summary - Paid: 0, Cancelled: 0, Pending: 1, Total Paid: 0
+[03-Jan-2026 17:20:24 UTC] DEBUG [Salary Management]: Payment history records: 0
+[03-Jan-2026 17:20:24 UTC] DEBUG [Salary Management]: Years list generated: 2026, 2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018
+[03-Jan-2026 17:20:24 UTC] DEBUG [Salary Management]: Page rendering started
+[03-Jan-2026 17:20:28 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/schoolin/public_html/teachers/teacher_edit.php on line 148
+[03-Jan-2026 17:20:46 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/schoolin/public_html/teachers/teacher_edit.php on line 148
+[03-Jan-2026 17:21:05 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/schoolin/public_html/teachers/teacher_edit.php on line 148
+[03-Jan-2026 17:21:37 UTC] DEBUG [Salary Management]: Session started
+[03-Jan-2026 17:21:37 UTC] DEBUG [Salary Management]: User authenticated: 88, Role: super_admin
+[03-Jan-2026 17:21:37 UTC] DEBUG [Salary Management]: Database connected successfully
+[03-Jan-2026 17:21:37 UTC] DEBUG [Salary Management]: Processing salary for teacher ID: 10
+[03-Jan-2026 17:21:37 UTC] DEBUG [Salary Management]: Teacher found: Laurel Carpenter (Code: TCHR0154)
+[03-Jan-2026 17:21:37 UTC] DEBUG [Salary Management]: Selected year: 2026, Join year: 2025, Current year: 2026
+[03-Jan-2026 17:21:37 UTC] DEBUG [Salary Management]: Generating months from 1 to 1 for year 2026
+[03-Jan-2026 17:21:37 UTC] DEBUG [Salary Management]: Month 01-2026: Status=pending, Net Salary=38, Leaves: Absent=0, Office=0
+[03-Jan-2026 17:21:37 UTC] DEBUG [Salary Management]: Generated 1 months for display
+[03-Jan-2026 17:21:37 UTC] DEBUG [Salary Management]: Summary - Paid: 0, Cancelled: 0, Pending: 1, Total Paid: 0
+[03-Jan-2026 17:21:37 UTC] DEBUG [Salary Management]: Payment history records: 0
+[03-Jan-2026 17:21:37 UTC] DEBUG [Salary Management]: Years list generated: 2026, 2025
+[03-Jan-2026 17:21:37 UTC] DEBUG [Salary Management]: Page rendering started
+[03-Jan-2026 17:21:42 UTC] DEBUG [Salary Management]: Session started
+[03-Jan-2026 17:21:42 UTC] DEBUG [Salary Management]: User authenticated: 88, Role: super_admin
+[03-Jan-2026 17:21:42 UTC] DEBUG [Salary Management]: Database connected successfully
+[03-Jan-2026 17:21:42 UTC] DEBUG [Salary Management]: Processing salary for teacher ID: 11
+[03-Jan-2026 17:21:42 UTC] DEBUG [Salary Management]: Teacher found: Piper English (Code: TCHR0155)
+[03-Jan-2026 17:21:42 UTC] DEBUG [Salary Management]: Selected year: 2026, Join year: 2026, Current year: 2026
+[03-Jan-2026 17:21:42 UTC] DEBUG [Salary Management]: Generating months from 1 to 1 for year 2026
+[03-Jan-2026 17:21:42 UTC] DEBUG [Salary Management]: Month 01-2026: Status=pending, Net Salary=100, Leaves: Absent=0, Office=0
+[03-Jan-2026 17:21:42 UTC] DEBUG [Salary Management]: Generated 1 months for display
+[03-Jan-2026 17:21:42 UTC] DEBUG [Salary Management]: Summary - Paid: 0, Cancelled: 0, Pending: 1, Total Paid: 0
+[03-Jan-2026 17:21:42 UTC] DEBUG [Salary Management]: Payment history records: 0
+[03-Jan-2026 17:21:42 UTC] DEBUG [Salary Management]: Years list generated: 2026
+[03-Jan-2026 17:21:42 UTC] DEBUG [Salary Management]: Page rendering started
+[03-Jan-2026 17:21:46 UTC] DEBUG [Salary Management]: Session started
+[03-Jan-2026 17:21:46 UTC] DEBUG [Salary Management]: User authenticated: 88, Role: super_admin
+[03-Jan-2026 17:21:46 UTC] DEBUG [Salary Management]: Database connected successfully
+[03-Jan-2026 17:21:46 UTC] DEBUG [Salary Management]: Processing salary for teacher ID: 10
+[03-Jan-2026 17:21:46 UTC] DEBUG [Salary Management]: Teacher found: Laurel Carpenter (Code: TCHR0154)
+[03-Jan-2026 17:21:46 UTC] DEBUG [Salary Management]: Selected year: 2026, Join year: 2025, Current year: 2026
+[03-Jan-2026 17:21:46 UTC] DEBUG [Salary Management]: Generating months from 1 to 1 for year 2026
+[03-Jan-2026 17:21:46 UTC] DEBUG [Salary Management]: Month 01-2026: Status=pending, Net Salary=38, Leaves: Absent=0, Office=0
+[03-Jan-2026 17:21:46 UTC] DEBUG [Salary Management]: Generated 1 months for display
+[03-Jan-2026 17:21:46 UTC] DEBUG [Salary Management]: Summary - Paid: 0, Cancelled: 0, Pending: 1, Total Paid: 0
+[03-Jan-2026 17:21:46 UTC] DEBUG [Salary Management]: Payment history records: 0
+[03-Jan-2026 17:21:46 UTC] DEBUG [Salary Management]: Years list generated: 2026, 2025
+[03-Jan-2026 17:21:46 UTC] DEBUG [Salary Management]: Page rendering started
+[03-Jan-2026 17:21:47 UTC] DEBUG [Salary Management]: Session started
+[03-Jan-2026 17:21:47 UTC] DEBUG [Salary Management]: User authenticated: 88, Role: super_admin
+[03-Jan-2026 17:21:47 UTC] DEBUG [Salary Management]: Database connected successfully
+[03-Jan-2026 17:21:47 UTC] DEBUG [Salary Management]: Processing salary for teacher ID: 10
+[03-Jan-2026 17:21:47 UTC] DEBUG [Salary Management]: Teacher found: Laurel Carpenter (Code: TCHR0154)
+[03-Jan-2026 17:21:47 UTC] DEBUG [Salary Management]: Selected year: 2025, Join year: 2025, Current year: 2026
+[03-Jan-2026 17:21:47 UTC] DEBUG [Salary Management]: Generating months from 6 to 12 for year 2025
+[03-Jan-2026 17:21:47 UTC] DEBUG [Salary Management]: Month 06-2025: Status=pending, Net Salary=38, Leaves: Absent=0, Office=0
+[03-Jan-2026 17:21:47 UTC] DEBUG [Salary Management]: Month 07-2025: Status=pending, Net Salary=38, Leaves: Absent=0, Office=0
+[03-Jan-2026 17:21:47 UTC] DEBUG [Salary Management]: Month 08-2025: Status=pending, Net Salary=38, Leaves: Absent=0, Office=0
+[03-Jan-2026 17:21:47 UTC] DEBUG [Salary Management]: Month 09-2025: Status=pending, Net Salary=38, Leaves: Absent=0, Office=0
+[03-Jan-2026 17:21:47 UTC] DEBUG [Salary Management]: Month 10-2025: Status=pending, Net Salary=38, Leaves: Absent=0, Office=0
+[03-Jan-2026 17:21:47 UTC] DEBUG [Salary Management]: Month 11-2025: Status=pending, Net Salary=38, Leaves: Absent=0, Office=0
+[03-Jan-2026 17:21:47 UTC] DEBUG [Salary Management]: Month 12-2025: Status=pending, Net Salary=38, Leaves: Absent=0, Office=0
+[03-Jan-2026 17:21:47 UTC] DEBUG [Salary Management]: Generated 7 months for display
+[03-Jan-2026 17:21:47 UTC] DEBUG [Salary Management]: Summary - Paid: 0, Cancelled: 0, Pending: 7, Total Paid: 0
+[03-Jan-2026 17:21:47 UTC] DEBUG [Salary Management]: Payment history records: 0
+[03-Jan-2026 17:21:47 UTC] DEBUG [Salary Management]: Years list generated: 2026, 2025
+[03-Jan-2026 17:21:47 UTC] DEBUG [Salary Management]: Page rendering started
+[03-Jan-2026 17:21:55 UTC] DEBUG [Salary Management]: Session started
+[03-Jan-2026 17:21:55 UTC] DEBUG [Salary Management]: User authenticated: 88, Role: super_admin
+[03-Jan-2026 17:21:55 UTC] DEBUG [Salary Management]: Database connected successfully
+[03-Jan-2026 17:21:55 UTC] DEBUG [Salary Management]: Processing salary for teacher ID: 10
+[03-Jan-2026 17:21:55 UTC] DEBUG [Salary Management]: Teacher found: Laurel Carpenter (Code: TCHR0154)
+[03-Jan-2026 17:21:55 UTC] DEBUG [Salary Management]: Selected year: 2025, Join year: 2025, Current year: 2026
+[03-Jan-2026 17:21:55 UTC] DEBUG [Salary Management]: POST request received
+[03-Jan-2026 17:21:55 UTC] DEBUG [Salary Management]: Processing salary action
+[03-Jan-2026 17:21:55 UTC] DEBUG [Salary Management]: Action: pay, Month: 06-2025, Allowance: 0, Deduction: 0
+[03-Jan-2026 17:21:55 UTC] DEBUG [Salary Management]: Salary calculation - Basic: 38.00, Net: 38
+[03-Jan-2026 17:21:55 UTC] DEBUG [Salary Management]: Inserting new paid record for 06-2025
+[03-Jan-2026 17:21:55 UTC] DEBUG [Salary Management]: Salary payment successful for 06-2025
+[03-Jan-2026 17:21:55 UTC] DEBUG [Salary Management]: Activity logged: Salary Paid
+[03-Jan-2026 17:21:55 UTC] DEBUG [Salary Management]: Session started
+[03-Jan-2026 17:21:55 UTC] DEBUG [Salary Management]: User authenticated: 88, Role: super_admin
+[03-Jan-2026 17:21:55 UTC] DEBUG [Salary Management]: Database connected successfully
+[03-Jan-2026 17:21:55 UTC] DEBUG [Salary Management]: Processing salary for teacher ID: 10
+[03-Jan-2026 17:21:55 UTC] DEBUG [Salary Management]: Teacher found: Laurel Carpenter (Code: TCHR0154)
+[03-Jan-2026 17:21:55 UTC] DEBUG [Salary Management]: Selected year: 2025, Join year: 2025, Current year: 2026
+[03-Jan-2026 17:21:55 UTC] DEBUG [Salary Management]: Generating months from 6 to 12 for year 2025
+[03-Jan-2026 17:21:55 UTC] DEBUG [Salary Management]: Month 06-2025: Status=paid, Net Salary=38.00, Leaves: Absent=0, Office=0
+[03-Jan-2026 17:21:55 UTC] DEBUG [Salary Management]: Month 07-2025: Status=pending, Net Salary=38, Leaves: Absent=0, Office=0
+[03-Jan-2026 17:21:55 UTC] DEBUG [Salary Management]: Month 08-2025: Status=pending, Net Salary=38, Leaves: Absent=0, Office=0
+[03-Jan-2026 17:21:55 UTC] DEBUG [Salary Management]: Month 09-2025: Status=pending, Net Salary=38, Leaves: Absent=0, Office=0
+[03-Jan-2026 17:21:55 UTC] DEBUG [Salary Management]: Month 10-2025: Status=pending, Net Salary=38, Leaves: Absent=0, Office=0
+[03-Jan-2026 17:21:55 UTC] DEBUG [Salary Management]: Month 11-2025: Status=pending, Net Salary=38, Leaves: Absent=0, Office=0
+[03-Jan-2026 17:21:55 UTC] DEBUG [Salary Management]: Month 12-2025: Status=pending, Net Salary=38, Leaves: Absent=0, Office=0
+[03-Jan-2026 17:21:55 UTC] DEBUG [Salary Management]: Generated 7 months for display
+[03-Jan-2026 17:21:55 UTC] DEBUG [Salary Management]: Summary - Paid: 1, Cancelled: 0, Pending: 6, Total Paid: 38.00
+[03-Jan-2026 17:21:55 UTC] DEBUG [Salary Management]: Payment history records: 1
+[03-Jan-2026 17:21:55 UTC] DEBUG [Salary Management]: Years list generated: 2026, 2025
+[03-Jan-2026 17:21:55 UTC] DEBUG [Salary Management]: Page rendering started
+[03-Jan-2026 17:22:01 UTC] DEBUG [Salary Management]: Session started
+[03-Jan-2026 17:22:01 UTC] DEBUG [Salary Management]: User authenticated: 88, Role: super_admin
+[03-Jan-2026 17:22:01 UTC] DEBUG [Salary Management]: Database connected successfully
+[03-Jan-2026 17:22:01 UTC] DEBUG [Salary Management]: Processing salary for teacher ID: 10
+[03-Jan-2026 17:22:01 UTC] DEBUG [Salary Management]: Teacher found: Laurel Carpenter (Code: TCHR0154)
+[03-Jan-2026 17:22:01 UTC] DEBUG [Salary Management]: Selected year: 2026, Join year: 2025, Current year: 2026
+[03-Jan-2026 17:22:01 UTC] DEBUG [Salary Management]: Generating months from 1 to 1 for year 2026
+[03-Jan-2026 17:22:01 UTC] DEBUG [Salary Management]: Month 01-2026: Status=pending, Net Salary=38, Leaves: Absent=0, Office=0
+[03-Jan-2026 17:22:01 UTC] DEBUG [Salary Management]: Generated 1 months for display
+[03-Jan-2026 17:22:01 UTC] DEBUG [Salary Management]: Summary - Paid: 0, Cancelled: 0, Pending: 1, Total Paid: 0
+[03-Jan-2026 17:22:01 UTC] DEBUG [Salary Management]: Payment history records: 1
+[03-Jan-2026 17:22:01 UTC] DEBUG [Salary Management]: Years list generated: 2026, 2025
+[03-Jan-2026 17:22:01 UTC] DEBUG [Salary Management]: Page rendering started
+[03-Jan-2026 17:22:04 UTC] DEBUG [Salary Management]: Session started
+[03-Jan-2026 17:22:04 UTC] DEBUG [Salary Management]: User authenticated: 88, Role: super_admin
+[03-Jan-2026 17:22:04 UTC] DEBUG [Salary Management]: Database connected successfully
+[03-Jan-2026 17:22:04 UTC] DEBUG [Salary Management]: Processing salary for teacher ID: 10
+[03-Jan-2026 17:22:04 UTC] DEBUG [Salary Management]: Teacher found: Laurel Carpenter (Code: TCHR0154)
+[03-Jan-2026 17:22:04 UTC] DEBUG [Salary Management]: Selected year: 2026, Join year: 2025, Current year: 2026
+[03-Jan-2026 17:22:04 UTC] DEBUG [Salary Management]: POST request received
+[03-Jan-2026 17:22:04 UTC] DEBUG [Salary Management]: Processing salary action
+[03-Jan-2026 17:22:04 UTC] DEBUG [Salary Management]: Action: pay, Month: 01-2026, Allowance: 0, Deduction: 0
+[03-Jan-2026 17:22:04 UTC] DEBUG [Salary Management]: Salary calculation - Basic: 38.00, Net: 38
+[03-Jan-2026 17:22:04 UTC] DEBUG [Salary Management]: Inserting new paid record for 01-2026
+[03-Jan-2026 17:22:04 UTC] DEBUG [Salary Management]: Salary payment successful for 01-2026
+[03-Jan-2026 17:22:04 UTC] DEBUG [Salary Management]: Activity logged: Salary Paid
+[03-Jan-2026 17:22:05 UTC] DEBUG [Salary Management]: Session started
+[03-Jan-2026 17:22:05 UTC] DEBUG [Salary Management]: User authenticated: 88, Role: super_admin
+[03-Jan-2026 17:22:05 UTC] DEBUG [Salary Management]: Database connected successfully
+[03-Jan-2026 17:22:05 UTC] DEBUG [Salary Management]: Processing salary for teacher ID: 10
+[03-Jan-2026 17:22:05 UTC] DEBUG [Salary Management]: Teacher found: Laurel Carpenter (Code: TCHR0154)
+[03-Jan-2026 17:22:05 UTC] DEBUG [Salary Management]: Selected year: 2026, Join year: 2025, Current year: 2026
+[03-Jan-2026 17:22:05 UTC] DEBUG [Salary Management]: Generating months from 1 to 1 for year 2026
+[03-Jan-2026 17:22:05 UTC] DEBUG [Salary Management]: Month 01-2026: Status=paid, Net Salary=38.00, Leaves: Absent=0, Office=0
+[03-Jan-2026 17:22:05 UTC] DEBUG [Salary Management]: Generated 1 months for display
+[03-Jan-2026 17:22:05 UTC] DEBUG [Salary Management]: Summary - Paid: 1, Cancelled: 0, Pending: 0, Total Paid: 38.00
+[03-Jan-2026 17:22:05 UTC] DEBUG [Salary Management]: Payment history records: 2
+[03-Jan-2026 17:22:05 UTC] DEBUG [Salary Management]: Years list generated: 2026, 2025
+[03-Jan-2026 17:22:05 UTC] DEBUG [Salary Management]: Page rendering started
+[03-Jan-2026 17:22:10 UTC] DEBUG [Salary Management]: Session started
+[03-Jan-2026 17:22:10 UTC] DEBUG [Salary Management]: User authenticated: 88, Role: super_admin
+[03-Jan-2026 17:22:10 UTC] DEBUG [Salary Management]: Database connected successfully
+[03-Jan-2026 17:22:10 UTC] DEBUG [Salary Management]: Processing salary for teacher ID: 10
+[03-Jan-2026 17:22:10 UTC] DEBUG [Salary Management]: Teacher found: Laurel Carpenter (Code: TCHR0154)
+[03-Jan-2026 17:22:10 UTC] DEBUG [Salary Management]: Selected year: 2026, Join year: 2025, Current year: 2026
+[03-Jan-2026 17:22:10 UTC] DEBUG [Salary Management]: Generating months from 1 to 1 for year 2026
+[03-Jan-2026 17:22:10 UTC] DEBUG [Salary Management]: Month 01-2026: Status=paid, Net Salary=38.00, Leaves: Absent=0, Office=0
+[03-Jan-2026 17:22:10 UTC] DEBUG [Salary Management]: Generated 1 months for display
+[03-Jan-2026 17:22:10 UTC] DEBUG [Salary Management]: Summary - Paid: 1, Cancelled: 0, Pending: 0, Total Paid: 38.00
+[03-Jan-2026 17:22:10 UTC] DEBUG [Salary Management]: Payment history records: 2
+[03-Jan-2026 17:22:10 UTC] DEBUG [Salary Management]: Years list generated: 2026, 2025
+[03-Jan-2026 17:22:10 UTC] DEBUG [Salary Management]: Page rendering started
+[03-Jan-2026 17:22:16 UTC] DEBUG [Salary Management]: Session started
+[03-Jan-2026 17:22:16 UTC] DEBUG [Salary Management]: User authenticated: 88, Role: super_admin
+[03-Jan-2026 17:22:16 UTC] DEBUG [Salary Management]: Database connected successfully
+[03-Jan-2026 17:22:16 UTC] DEBUG [Salary Management]: Processing salary for teacher ID: 9
+[03-Jan-2026 17:22:16 UTC] DEBUG [Salary Management]: Teacher found: Maya Bell (Code: TCHR0153)
+[03-Jan-2026 17:22:16 UTC] DEBUG [Salary Management]: Selected year: 2026, Join year: 2025, Current year: 2026
+[03-Jan-2026 17:22:16 UTC] DEBUG [Salary Management]: Generating months from 1 to 1 for year 2026
+[03-Jan-2026 17:22:16 UTC] DEBUG [Salary Management]: Month 01-2026: Status=cancelled, Net Salary=64000.00, Leaves: Absent=0, Office=0
+[03-Jan-2026 17:22:16 UTC] DEBUG [Salary Management]: Generated 1 months for display
+[03-Jan-2026 17:22:16 UTC] DEBUG [Salary Management]: Summary - Paid: 0, Cancelled: 1, Pending: 0, Total Paid: 0.00
+[03-Jan-2026 17:22:16 UTC] DEBUG [Salary Management]: Payment history records: 1
+[03-Jan-2026 17:22:16 UTC] DEBUG [Salary Management]: Years list generated: 2026, 2025
+[03-Jan-2026 17:22:16 UTC] DEBUG [Salary Management]: Page rendering started
+[03-Jan-2026 17:22:24 UTC] DEBUG [Salary Management]: Session started
+[03-Jan-2026 17:22:24 UTC] DEBUG [Salary Management]: User authenticated: 88, Role: super_admin
+[03-Jan-2026 17:22:24 UTC] DEBUG [Salary Management]: Database connected successfully
+[03-Jan-2026 17:22:24 UTC] DEBUG [Salary Management]: Processing salary for teacher ID: 9
+[03-Jan-2026 17:22:24 UTC] DEBUG [Salary Management]: Teacher found: Maya Bell (Code: TCHR0153)
+[03-Jan-2026 17:22:24 UTC] DEBUG [Salary Management]: Selected year: 2026, Join year: 2025, Current year: 2026
+[03-Jan-2026 17:22:24 UTC] DEBUG [Salary Management]: POST request received
+[03-Jan-2026 17:22:24 UTC] DEBUG [Salary Management]: Processing salary action
+[03-Jan-2026 17:22:24 UTC] DEBUG [Salary Management]: Action: pay, Month: 01-2026, Allowance: 0, Deduction: 0
+[03-Jan-2026 17:22:24 UTC] DEBUG [Salary Management]: Salary calculation - Basic: 64000.00, Net: 64000
+[03-Jan-2026 17:22:24 UTC] DEBUG [Salary Management]: Updating existing record to paid for 01-2026
+[03-Jan-2026 17:22:24 UTC] DEBUG [Salary Management]: Salary payment successful for 01-2026
+[03-Jan-2026 17:22:24 UTC] DEBUG [Salary Management]: Activity logged: Salary Paid
+[03-Jan-2026 17:22:24 UTC] DEBUG [Salary Management]: Session started
+[03-Jan-2026 17:22:24 UTC] DEBUG [Salary Management]: User authenticated: 88, Role: super_admin
+[03-Jan-2026 17:22:24 UTC] DEBUG [Salary Management]: Database connected successfully
+[03-Jan-2026 17:22:24 UTC] DEBUG [Salary Management]: Processing salary for teacher ID: 9
+[03-Jan-2026 17:22:24 UTC] DEBUG [Salary Management]: Teacher found: Maya Bell (Code: TCHR0153)
+[03-Jan-2026 17:22:24 UTC] DEBUG [Salary Management]: Selected year: 2026, Join year: 2025, Current year: 2026
+[03-Jan-2026 17:22:24 UTC] DEBUG [Salary Management]: Generating months from 1 to 1 for year 2026
+[03-Jan-2026 17:22:24 UTC] DEBUG [Salary Management]: Month 01-2026: Status=paid, Net Salary=64000.00, Leaves: Absent=0, Office=0
+[03-Jan-2026 17:22:24 UTC] DEBUG [Salary Management]: Generated 1 months for display
+[03-Jan-2026 17:22:24 UTC] DEBUG [Salary Management]: Summary - Paid: 1, Cancelled: 0, Pending: 0, Total Paid: 64000.00
+[03-Jan-2026 17:22:24 UTC] DEBUG [Salary Management]: Payment history records: 1
+[03-Jan-2026 17:22:24 UTC] DEBUG [Salary Management]: Years list generated: 2026, 2025
+[03-Jan-2026 17:22:24 UTC] DEBUG [Salary Management]: Page rendering started
+[03-Jan-2026 17:22:29 UTC] DEBUG [Salary Management]: Session started
+[03-Jan-2026 17:22:29 UTC] DEBUG [Salary Management]: User authenticated: 88, Role: super_admin
+[03-Jan-2026 17:22:29 UTC] DEBUG [Salary Management]: Database connected successfully
+[03-Jan-2026 17:22:29 UTC] DEBUG [Salary Management]: Processing salary for teacher ID: 9
+[03-Jan-2026 17:22:29 UTC] DEBUG [Salary Management]: Teacher found: Maya Bell (Code: TCHR0153)
+[03-Jan-2026 17:22:29 UTC] DEBUG [Salary Management]: Selected year: 2026, Join year: 2025, Current year: 2026
+[03-Jan-2026 17:22:29 UTC] DEBUG [Salary Management]: Generating months from 1 to 1 for year 2026
+[03-Jan-2026 17:22:29 UTC] DEBUG [Salary Management]: Month 01-2026: Status=paid, Net Salary=64000.00, Leaves: Absent=0, Office=0
+[03-Jan-2026 17:22:29 UTC] DEBUG [Salary Management]: Generated 1 months for display
+[03-Jan-2026 17:22:29 UTC] DEBUG [Salary Management]: Summary - Paid: 1, Cancelled: 0, Pending: 0, Total Paid: 64000.00
+[03-Jan-2026 17:22:29 UTC] DEBUG [Salary Management]: Payment history records: 1
+[03-Jan-2026 17:22:29 UTC] DEBUG [Salary Management]: Years list generated: 2026, 2025
+[03-Jan-2026 17:22:29 UTC] DEBUG [Salary Management]: Page rendering started
+[03-Jan-2026 17:22:31 UTC] DEBUG [Salary Management]: Session started
+[03-Jan-2026 17:22:31 UTC] DEBUG [Salary Management]: User authenticated: 88, Role: super_admin
+[03-Jan-2026 17:22:31 UTC] DEBUG [Salary Management]: Database connected successfully
+[03-Jan-2026 17:22:31 UTC] DEBUG [Salary Management]: Processing salary for teacher ID: 9
+[03-Jan-2026 17:22:31 UTC] DEBUG [Salary Management]: Teacher found: Maya Bell (Code: TCHR0153)
+[03-Jan-2026 17:22:31 UTC] DEBUG [Salary Management]: Selected year: 2025, Join year: 2025, Current year: 2026
+[03-Jan-2026 17:22:31 UTC] DEBUG [Salary Management]: Generating months from 5 to 12 for year 2025
+[03-Jan-2026 17:22:31 UTC] DEBUG [Salary Management]: Month 05-2025: Status=pending, Net Salary=64000, Leaves: Absent=0, Office=0
+[03-Jan-2026 17:22:31 UTC] DEBUG [Salary Management]: Month 06-2025: Status=pending, Net Salary=64000, Leaves: Absent=0, Office=0
+[03-Jan-2026 17:22:31 UTC] DEBUG [Salary Management]: Month 07-2025: Status=pending, Net Salary=64000, Leaves: Absent=0, Office=0
+[03-Jan-2026 17:22:31 UTC] DEBUG [Salary Management]: Month 08-2025: Status=pending, Net Salary=64000, Leaves: Absent=0, Office=0
+[03-Jan-2026 17:22:31 UTC] DEBUG [Salary Management]: Month 09-2025: Status=pending, Net Salary=64000, Leaves: Absent=0, Office=0
+[03-Jan-2026 17:22:31 UTC] DEBUG [Salary Management]: Month 10-2025: Status=pending, Net Salary=64000, Leaves: Absent=0, Office=0
+[03-Jan-2026 17:22:31 UTC] DEBUG [Salary Management]: Month 11-2025: Status=pending, Net Salary=64000, Leaves: Absent=0, Office=0
+[03-Jan-2026 17:22:31 UTC] DEBUG [Salary Management]: Month 12-2025: Status=pending, Net Salary=64000, Leaves: Absent=0, Office=0
+[03-Jan-2026 17:22:31 UTC] DEBUG [Salary Management]: Generated 8 months for display
+[03-Jan-2026 17:22:31 UTC] DEBUG [Salary Management]: Summary - Paid: 0, Cancelled: 0, Pending: 8, Total Paid: 0
+[03-Jan-2026 17:22:31 UTC] DEBUG [Salary Management]: Payment history records: 1
+[03-Jan-2026 17:22:31 UTC] DEBUG [Salary Management]: Years list generated: 2026, 2025
+[03-Jan-2026 17:22:31 UTC] DEBUG [Salary Management]: Page rendering started
+[03-Jan-2026 17:22:31 UTC] DEBUG [Salary Management]: Session started
+[03-Jan-2026 17:22:31 UTC] DEBUG [Salary Management]: User authenticated: 88, Role: super_admin
+[03-Jan-2026 17:22:31 UTC] DEBUG [Salary Management]: Database connected successfully
+[03-Jan-2026 17:22:31 UTC] DEBUG [Salary Management]: Processing salary for teacher ID: 9
+[03-Jan-2026 17:22:31 UTC] DEBUG [Salary Management]: Teacher found: Maya Bell (Code: TCHR0153)
+[03-Jan-2026 17:22:31 UTC] DEBUG [Salary Management]: Selected year: 2026, Join year: 2025, Current year: 2026
+[03-Jan-2026 17:22:31 UTC] DEBUG [Salary Management]: Generating months from 1 to 1 for year 2026
+[03-Jan-2026 17:22:31 UTC] DEBUG [Salary Management]: Month 01-2026: Status=paid, Net Salary=64000.00, Leaves: Absent=0, Office=0
+[03-Jan-2026 17:22:31 UTC] DEBUG [Salary Management]: Generated 1 months for display
+[03-Jan-2026 17:22:31 UTC] DEBUG [Salary Management]: Summary - Paid: 1, Cancelled: 0, Pending: 0, Total Paid: 64000.00
+[03-Jan-2026 17:22:31 UTC] DEBUG [Salary Management]: Payment history records: 1
+[03-Jan-2026 17:22:31 UTC] DEBUG [Salary Management]: Years list generated: 2026, 2025
+[03-Jan-2026 17:22:31 UTC] DEBUG [Salary Management]: Page rendering started
+[03-Jan-2026 17:22:33 UTC] DEBUG [Salary Management]: Session started
+[03-Jan-2026 17:22:33 UTC] DEBUG [Salary Management]: User authenticated: 88, Role: super_admin
+[03-Jan-2026 17:22:33 UTC] DEBUG [Salary Management]: Database connected successfully
+[03-Jan-2026 17:22:33 UTC] DEBUG [Salary Management]: Processing salary for teacher ID: 9
+[03-Jan-2026 17:22:33 UTC] DEBUG [Salary Management]: Teacher found: Maya Bell (Code: TCHR0153)
+[03-Jan-2026 17:22:33 UTC] DEBUG [Salary Management]: Selected year: 2025, Join year: 2025, Current year: 2026
+[03-Jan-2026 17:22:33 UTC] DEBUG [Salary Management]: Generating months from 5 to 12 for year 2025
+[03-Jan-2026 17:22:33 UTC] DEBUG [Salary Management]: Month 05-2025: Status=pending, Net Salary=64000, Leaves: Absent=0, Office=0
+[03-Jan-2026 17:22:33 UTC] DEBUG [Salary Management]: Month 06-2025: Status=pending, Net Salary=64000, Leaves: Absent=0, Office=0
+[03-Jan-2026 17:22:33 UTC] DEBUG [Salary Management]: Month 07-2025: Status=pending, Net Salary=64000, Leaves: Absent=0, Office=0
+[03-Jan-2026 17:22:33 UTC] DEBUG [Salary Management]: Month 08-2025: Status=pending, Net Salary=64000, Leaves: Absent=0, Office=0
+[03-Jan-2026 17:22:33 UTC] DEBUG [Salary Management]: Month 09-2025: Status=pending, Net Salary=64000, Leaves: Absent=0, Office=0
+[03-Jan-2026 17:22:33 UTC] DEBUG [Salary Management]: Month 10-2025: Status=pending, Net Salary=64000, Leaves: Absent=0, Office=0
+[03-Jan-2026 17:22:33 UTC] DEBUG [Salary Management]: Month 11-2025: Status=pending, Net Salary=64000, Leaves: Absent=0, Office=0
+[03-Jan-2026 17:22:33 UTC] DEBUG [Salary Management]: Month 12-2025: Status=pending, Net Salary=64000, Leaves: Absent=0, Office=0
+[03-Jan-2026 17:22:33 UTC] DEBUG [Salary Management]: Generated 8 months for display
+[03-Jan-2026 17:22:33 UTC] DEBUG [Salary Management]: Summary - Paid: 0, Cancelled: 0, Pending: 8, Total Paid: 0
+[03-Jan-2026 17:22:33 UTC] DEBUG [Salary Management]: Payment history records: 1
+[03-Jan-2026 17:22:33 UTC] DEBUG [Salary Management]: Years list generated: 2026, 2025
+[03-Jan-2026 17:22:33 UTC] DEBUG [Salary Management]: Page rendering started
+[03-Jan-2026 17:59:00 UTC] DEBUG [Salary Management]: Session started
+[03-Jan-2026 17:59:00 UTC] DEBUG [Salary Management]: User authenticated: 88, Role: super_admin
+[03-Jan-2026 17:59:00 UTC] DEBUG [Salary Management]: Database connected successfully
+[03-Jan-2026 17:59:00 UTC] DEBUG [Salary Management]: Processing salary for teacher ID: 12
+[03-Jan-2026 17:59:00 UTC] DEBUG [Salary Management]: Teacher found: Aline Grant (Code: TCHR0156)
+[03-Jan-2026 17:59:00 UTC] DEBUG [Salary Management]: Selected year: 2026, Join year: 2026, Current year: 2026
+[03-Jan-2026 17:59:00 UTC] DEBUG [Salary Management]: Generating months from 1 to 1 for year 2026
+[03-Jan-2026 17:59:00 UTC] DEBUG [Salary Management]: Month 01-2026: Status=pending, Net Salary=42, Leaves: Absent=0, Office=0
+[03-Jan-2026 17:59:00 UTC] DEBUG [Salary Management]: Generated 1 months for display
+[03-Jan-2026 17:59:00 UTC] DEBUG [Salary Management]: Summary - Paid: 0, Cancelled: 0, Pending: 1, Total Paid: 0
+[03-Jan-2026 17:59:00 UTC] DEBUG [Salary Management]: Payment history records: 0
+[03-Jan-2026 17:59:00 UTC] DEBUG [Salary Management]: Years list generated: 2026
+[03-Jan-2026 17:59:00 UTC] DEBUG [Salary Management]: Page rendering started
+[04-Jan-2026 05:53:43 UTC] DEBUG [Salary Management]: Session started
+[04-Jan-2026 05:53:43 UTC] DEBUG [Salary Management]: User authenticated: 88, Role: super_admin
+[04-Jan-2026 05:53:43 UTC] DEBUG [Salary Management]: Database connected successfully
+[04-Jan-2026 05:53:43 UTC] DEBUG [Salary Management]: Processing salary for teacher ID: 12
+[04-Jan-2026 05:53:43 UTC] DEBUG [Salary Management]: Teacher found: Aline Grant (Code: TCHR0156)
+[04-Jan-2026 05:53:43 UTC] DEBUG [Salary Management]: Selected year: 2026, Join year: 2026, Current year: 2026
+[04-Jan-2026 05:53:43 UTC] DEBUG [Salary Management]: Generating months from 1 to 1 for year 2026
+[04-Jan-2026 05:53:43 UTC] DEBUG [Salary Management]: Month 01-2026: Status=pending, Net Salary=42, Leaves: Absent=0, Office=0
+[04-Jan-2026 05:53:43 UTC] DEBUG [Salary Management]: Generated 1 months for display
+[04-Jan-2026 05:53:43 UTC] DEBUG [Salary Management]: Summary - Paid: 0, Cancelled: 0, Pending: 1, Total Paid: 0
+[04-Jan-2026 05:53:43 UTC] DEBUG [Salary Management]: Payment history records: 0
+[04-Jan-2026 05:53:43 UTC] DEBUG [Salary Management]: Years list generated: 2026
+[04-Jan-2026 05:53:43 UTC] DEBUG [Salary Management]: Page rendering started
+[05-Jan-2026 06:19:24 UTC] DEBUG [Salary Management]: Session started
+[05-Jan-2026 06:19:24 UTC] DEBUG [Salary Management]: User authenticated: 88, Role: super_admin
+[05-Jan-2026 06:19:24 UTC] DEBUG [Salary Management]: Database connected successfully
+[05-Jan-2026 06:19:24 UTC] DEBUG [Salary Management]: Processing salary for teacher ID: 12
+[05-Jan-2026 06:19:24 UTC] DEBUG [Salary Management]: Teacher found: Aline Grant (Code: TCHR0156)
+[05-Jan-2026 06:19:24 UTC] DEBUG [Salary Management]: Selected year: 2026, Join year: 2026, Current year: 2026
+[05-Jan-2026 06:19:24 UTC] DEBUG [Salary Management]: Generating months from 1 to 1 for year 2026
+[05-Jan-2026 06:19:24 UTC] DEBUG [Salary Management]: Month 01-2026: Status=pending, Net Salary=42, Leaves: Absent=0, Office=0
+[05-Jan-2026 06:19:24 UTC] DEBUG [Salary Management]: Generated 1 months for display
+[05-Jan-2026 06:19:24 UTC] DEBUG [Salary Management]: Summary - Paid: 0, Cancelled: 0, Pending: 1, Total Paid: 0
+[05-Jan-2026 06:19:24 UTC] DEBUG [Salary Management]: Payment history records: 0
+[05-Jan-2026 06:19:24 UTC] DEBUG [Salary Management]: Years list generated: 2026
+[05-Jan-2026 06:19:24 UTC] DEBUG [Salary Management]: Page rendering started
+[05-Jan-2026 06:20:08 UTC] DEBUG [Salary Management]: Session started
+[05-Jan-2026 06:20:08 UTC] DEBUG [Salary Management]: User authenticated: 88, Role: super_admin
+[05-Jan-2026 06:20:08 UTC] DEBUG [Salary Management]: Database connected successfully
+[05-Jan-2026 06:20:08 UTC] DEBUG [Salary Management]: Processing salary for teacher ID: 12
+[05-Jan-2026 06:20:08 UTC] DEBUG [Salary Management]: Teacher found: Aline Grant (Code: TCHR0156)
+[05-Jan-2026 06:20:08 UTC] DEBUG [Salary Management]: Selected year: 2026, Join year: 2026, Current year: 2026
+[05-Jan-2026 06:20:08 UTC] DEBUG [Salary Management]: Generating months from 1 to 1 for year 2026
+[05-Jan-2026 06:20:08 UTC] DEBUG [Salary Management]: Month 01-2026: Status=pending, Net Salary=42, Leaves: Absent=0, Office=0
+[05-Jan-2026 06:20:08 UTC] DEBUG [Salary Management]: Generated 1 months for display
+[05-Jan-2026 06:20:08 UTC] DEBUG [Salary Management]: Summary - Paid: 0, Cancelled: 0, Pending: 1, Total Paid: 0
+[05-Jan-2026 06:20:08 UTC] DEBUG [Salary Management]: Payment history records: 0
+[05-Jan-2026 06:20:08 UTC] DEBUG [Salary Management]: Years list generated: 2026
+[05-Jan-2026 06:20:08 UTC] DEBUG [Salary Management]: Page rendering started
+[05-Jan-2026 06:20:16 UTC] DEBUG [Salary Management]: Session started
+[05-Jan-2026 06:20:16 UTC] DEBUG [Salary Management]: User authenticated: 88, Role: super_admin
+[05-Jan-2026 06:20:16 UTC] DEBUG [Salary Management]: Database connected successfully
+[05-Jan-2026 06:20:16 UTC] DEBUG [Salary Management]: Processing salary for teacher ID: 11
+[05-Jan-2026 06:20:16 UTC] DEBUG [Salary Management]: Teacher found: Piper English (Code: TCHR0155)
+[05-Jan-2026 06:20:16 UTC] DEBUG [Salary Management]: Selected year: 2026, Join year: 2026, Current year: 2026
+[05-Jan-2026 06:20:16 UTC] DEBUG [Salary Management]: Generating months from 1 to 1 for year 2026
+[05-Jan-2026 06:20:16 UTC] DEBUG [Salary Management]: Month 01-2026: Status=pending, Net Salary=100, Leaves: Absent=0, Office=0
+[05-Jan-2026 06:20:16 UTC] DEBUG [Salary Management]: Generated 1 months for display
+[05-Jan-2026 06:20:16 UTC] DEBUG [Salary Management]: Summary - Paid: 0, Cancelled: 0, Pending: 1, Total Paid: 0
+[05-Jan-2026 06:20:16 UTC] DEBUG [Salary Management]: Payment history records: 0
+[05-Jan-2026 06:20:16 UTC] DEBUG [Salary Management]: Years list generated: 2026
+[05-Jan-2026 06:20:16 UTC] DEBUG [Salary Management]: Page rendering started
+[05-Jan-2026 06:20:21 UTC] DEBUG [Salary Management]: Session started
+[05-Jan-2026 06:20:21 UTC] DEBUG [Salary Management]: User authenticated: 88, Role: super_admin
+[05-Jan-2026 06:20:21 UTC] DEBUG [Salary Management]: Database connected successfully
+[05-Jan-2026 06:20:21 UTC] DEBUG [Salary Management]: Processing salary for teacher ID: 11
+[05-Jan-2026 06:20:21 UTC] DEBUG [Salary Management]: Teacher found: Piper English (Code: TCHR0155)
+[05-Jan-2026 06:20:21 UTC] DEBUG [Salary Management]: Selected year: 2026, Join year: 2026, Current year: 2026
+[05-Jan-2026 06:20:21 UTC] DEBUG [Salary Management]: POST request received
+[05-Jan-2026 06:20:21 UTC] DEBUG [Salary Management]: Processing salary action
+[05-Jan-2026 06:20:21 UTC] DEBUG [Salary Management]: Action: pay, Month: 01-2026, Allowance: 0, Deduction: 0
+[05-Jan-2026 06:20:21 UTC] DEBUG [Salary Management]: Salary calculation - Basic: 100.00, Net: 100
+[05-Jan-2026 06:20:21 UTC] DEBUG [Salary Management]: Inserting new paid record for 01-2026
+[05-Jan-2026 06:20:21 UTC] DEBUG [Salary Management]: Salary payment successful for 01-2026
+[05-Jan-2026 06:20:21 UTC] DEBUG [Salary Management]: Activity logged: Salary Paid
+[05-Jan-2026 06:20:21 UTC] DEBUG [Salary Management]: Session started
+[05-Jan-2026 06:20:21 UTC] DEBUG [Salary Management]: User authenticated: 88, Role: super_admin
+[05-Jan-2026 06:20:21 UTC] DEBUG [Salary Management]: Database connected successfully
+[05-Jan-2026 06:20:21 UTC] DEBUG [Salary Management]: Processing salary for teacher ID: 11
+[05-Jan-2026 06:20:21 UTC] DEBUG [Salary Management]: Teacher found: Piper English (Code: TCHR0155)
+[05-Jan-2026 06:20:21 UTC] DEBUG [Salary Management]: Selected year: 2026, Join year: 2026, Current year: 2026
+[05-Jan-2026 06:20:21 UTC] DEBUG [Salary Management]: Generating months from 1 to 1 for year 2026
+[05-Jan-2026 06:20:21 UTC] DEBUG [Salary Management]: Month 01-2026: Status=paid, Net Salary=100.00, Leaves: Absent=0, Office=0
+[05-Jan-2026 06:20:21 UTC] DEBUG [Salary Management]: Generated 1 months for display
+[05-Jan-2026 06:20:21 UTC] DEBUG [Salary Management]: Summary - Paid: 1, Cancelled: 0, Pending: 0, Total Paid: 100.00
+[05-Jan-2026 06:20:21 UTC] DEBUG [Salary Management]: Payment history records: 1
+[05-Jan-2026 06:20:21 UTC] DEBUG [Salary Management]: Years list generated: 2026
+[05-Jan-2026 06:20:21 UTC] DEBUG [Salary Management]: Page rendering started
+[05-Jan-2026 06:20:37 UTC] DEBUG [Salary Management]: Session started
+[05-Jan-2026 06:20:37 UTC] DEBUG [Salary Management]: User authenticated: 88, Role: super_admin
+[05-Jan-2026 06:20:38 UTC] DEBUG [Salary Management]: Database connected successfully
+[05-Jan-2026 06:20:38 UTC] DEBUG [Salary Management]: Processing salary for teacher ID: 11
+[05-Jan-2026 06:20:38 UTC] DEBUG [Salary Management]: Teacher found: Piper English (Code: TCHR0155)
+[05-Jan-2026 06:20:38 UTC] DEBUG [Salary Management]: Selected year: 2026, Join year: 2026, Current year: 2026
+[05-Jan-2026 06:20:38 UTC] DEBUG [Salary Management]: Generating months from 1 to 1 for year 2026
+[05-Jan-2026 06:20:38 UTC] DEBUG [Salary Management]: Month 01-2026: Status=paid, Net Salary=100.00, Leaves: Absent=0, Office=0
+[05-Jan-2026 06:20:38 UTC] DEBUG [Salary Management]: Generated 1 months for display
+[05-Jan-2026 06:20:38 UTC] DEBUG [Salary Management]: Summary - Paid: 1, Cancelled: 0, Pending: 0, Total Paid: 100.00
+[05-Jan-2026 06:20:38 UTC] DEBUG [Salary Management]: Payment history records: 1
+[05-Jan-2026 06:20:38 UTC] DEBUG [Salary Management]: Years list generated: 2026
+[05-Jan-2026 06:20:38 UTC] DEBUG [Salary Management]: Page rendering started
+[05-Jan-2026 06:20:48 UTC] DEBUG [Salary Management]: Session started
+[05-Jan-2026 06:20:48 UTC] DEBUG [Salary Management]: User authenticated: 88, Role: super_admin
+[05-Jan-2026 06:20:48 UTC] DEBUG [Salary Management]: Database connected successfully
+[05-Jan-2026 06:20:48 UTC] DEBUG [Salary Management]: Processing salary for teacher ID: 11
+[05-Jan-2026 06:20:48 UTC] DEBUG [Salary Management]: Teacher found: Piper English (Code: TCHR0155)
+[05-Jan-2026 06:20:48 UTC] DEBUG [Salary Management]: Selected year: 2026, Join year: 2026, Current year: 2026
+[05-Jan-2026 06:20:48 UTC] DEBUG [Salary Management]: Generating months from 1 to 1 for year 2026
+[05-Jan-2026 06:20:48 UTC] DEBUG [Salary Management]: Month 01-2026: Status=paid, Net Salary=100.00, Leaves: Absent=0, Office=0
+[05-Jan-2026 06:20:48 UTC] DEBUG [Salary Management]: Generated 1 months for display
+[05-Jan-2026 06:20:48 UTC] DEBUG [Salary Management]: Summary - Paid: 1, Cancelled: 0, Pending: 0, Total Paid: 100.00
+[05-Jan-2026 06:20:48 UTC] DEBUG [Salary Management]: Payment history records: 1
+[05-Jan-2026 06:20:48 UTC] DEBUG [Salary Management]: Years list generated: 2026
+[05-Jan-2026 06:20:48 UTC] DEBUG [Salary Management]: Page rendering started
+[05-Jan-2026 06:22:56 UTC] DEBUG [Salary Management]: Session started
+[05-Jan-2026 06:22:56 UTC] DEBUG [Salary Management]: User authenticated: 88, Role: super_admin
+[05-Jan-2026 06:22:56 UTC] DEBUG [Salary Management]: Database connected successfully
+[05-Jan-2026 06:22:56 UTC] DEBUG [Salary Management]: Processing salary for teacher ID: 12
+[05-Jan-2026 06:22:56 UTC] DEBUG [Salary Management]: Teacher found: Aline Grant (Code: TCHR0156)
+[05-Jan-2026 06:22:56 UTC] DEBUG [Salary Management]: Selected year: 2026, Join year: 2026, Current year: 2026
+[05-Jan-2026 06:22:56 UTC] DEBUG [Salary Management]: Generating months from 1 to 1 for year 2026
+[05-Jan-2026 06:22:56 UTC] DEBUG [Salary Management]: Month 01-2026: Status=pending, Net Salary=42, Leaves: Absent=0, Office=0
+[05-Jan-2026 06:22:56 UTC] DEBUG [Salary Management]: Generated 1 months for display
+[05-Jan-2026 06:22:56 UTC] DEBUG [Salary Management]: Summary - Paid: 0, Cancelled: 0, Pending: 1, Total Paid: 0
+[05-Jan-2026 06:22:56 UTC] DEBUG [Salary Management]: Payment history records: 0
+[05-Jan-2026 06:22:56 UTC] DEBUG [Salary Management]: Years list generated: 2026
+[05-Jan-2026 06:22:56 UTC] DEBUG [Salary Management]: Page rendering started
+[05-Jan-2026 06:24:37 UTC] DEBUG [Salary Management]: Session started
+[05-Jan-2026 06:24:37 UTC] DEBUG [Salary Management]: User authenticated: 88, Role: super_admin
+[05-Jan-2026 06:24:37 UTC] DEBUG [Salary Management]: Database connected successfully
+[05-Jan-2026 06:24:37 UTC] DEBUG [Salary Management]: Processing salary for teacher ID: 12
+[05-Jan-2026 06:24:37 UTC] DEBUG [Salary Management]: Teacher found: Aline Grant (Code: TCHR0156)
+[05-Jan-2026 06:24:37 UTC] DEBUG [Salary Management]: Selected year: 2026, Join year: 2026, Current year: 2026
+[05-Jan-2026 06:24:37 UTC] DEBUG [Salary Management]: Generating months from 1 to 1 for year 2026
+[05-Jan-2026 06:24:37 UTC] DEBUG [Salary Management]: Month 01-2026: Status=pending, Net Salary=42, Leaves: Absent=0, Office=0
+[05-Jan-2026 06:24:37 UTC] DEBUG [Salary Management]: Generated 1 months for display
+[05-Jan-2026 06:24:37 UTC] DEBUG [Salary Management]: Summary - Paid: 0, Cancelled: 0, Pending: 1, Total Paid: 0
+[05-Jan-2026 06:24:37 UTC] DEBUG [Salary Management]: Payment history records: 0
+[05-Jan-2026 06:24:37 UTC] DEBUG [Salary Management]: Years list generated: 2026
+[05-Jan-2026 06:24:37 UTC] DEBUG [Salary Management]: Page rendering started
+[05-Jan-2026 06:24:47 UTC] DEBUG [Salary Management]: Session started
+[05-Jan-2026 06:24:47 UTC] DEBUG [Salary Management]: User authenticated: 88, Role: super_admin
+[05-Jan-2026 06:24:47 UTC] DEBUG [Salary Management]: Database connected successfully
+[05-Jan-2026 06:24:47 UTC] DEBUG [Salary Management]: Processing salary for teacher ID: 12
+[05-Jan-2026 06:24:47 UTC] DEBUG [Salary Management]: Teacher found: Aline Grant (Code: TCHR0156)
+[05-Jan-2026 06:24:47 UTC] DEBUG [Salary Management]: Selected year: 2026, Join year: 2026, Current year: 2026
+[05-Jan-2026 06:24:47 UTC] DEBUG [Salary Management]: Generating months from 1 to 1 for year 2026
+[05-Jan-2026 06:24:47 UTC] DEBUG [Salary Management]: Month 01-2026: Status=pending, Net Salary=42, Leaves: Absent=0, Office=0
+[05-Jan-2026 06:24:47 UTC] DEBUG [Salary Management]: Generated 1 months for display
+[05-Jan-2026 06:24:47 UTC] DEBUG [Salary Management]: Summary - Paid: 0, Cancelled: 0, Pending: 1, Total Paid: 0
+[05-Jan-2026 06:24:47 UTC] DEBUG [Salary Management]: Payment history records: 0
+[05-Jan-2026 06:24:47 UTC] DEBUG [Salary Management]: Years list generated: 2026
+[05-Jan-2026 06:24:47 UTC] DEBUG [Salary Management]: Page rendering started
+[05-Jan-2026 06:31:37 UTC] DEBUG [Salary Management]: Session started
+[05-Jan-2026 06:31:37 UTC] DEBUG [Salary Management]: User authenticated: 88, Role: super_admin
+[05-Jan-2026 06:31:37 UTC] DEBUG [Salary Management]: Database connected successfully
+[05-Jan-2026 06:31:37 UTC] DEBUG [Salary Management]: Processing salary for teacher ID: 12
+[05-Jan-2026 06:31:37 UTC] DEBUG [Salary Management]: Teacher found: Aline Grant (Code: TCHR0156)
+[05-Jan-2026 06:31:37 UTC] DEBUG [Salary Management]: Selected year: 2026, Join year: 2026, Current year: 2026
+[05-Jan-2026 06:31:37 UTC] DEBUG [Salary Management]: Generating months from 1 to 1 for year 2026
+[05-Jan-2026 06:31:37 UTC] DEBUG [Salary Management]: Month 01-2026: Status=pending, Net Salary=42, Leaves: Absent=0, Office=0
+[05-Jan-2026 06:31:37 UTC] DEBUG [Salary Management]: Generated 1 months for display
+[05-Jan-2026 06:31:37 UTC] DEBUG [Salary Management]: Summary - Paid: 0, Cancelled: 0, Pending: 1, Total Paid: 0
+[05-Jan-2026 06:31:37 UTC] DEBUG [Salary Management]: Payment history records: 0
+[05-Jan-2026 06:31:37 UTC] DEBUG [Salary Management]: Years list generated: 2026
+[05-Jan-2026 06:31:37 UTC] DEBUG [Salary Management]: Page rendering started
+[05-Jan-2026 06:31:42 UTC] DEBUG [Salary Management]: Session started
+[05-Jan-2026 06:31:42 UTC] DEBUG [Salary Management]: User authenticated: 88, Role: super_admin
+[05-Jan-2026 06:31:42 UTC] DEBUG [Salary Management]: Database connected successfully
+[05-Jan-2026 06:31:42 UTC] DEBUG [Salary Management]: Processing salary for teacher ID: 11
+[05-Jan-2026 06:31:42 UTC] DEBUG [Salary Management]: Teacher found: Piper English (Code: TCHR0155)
+[05-Jan-2026 06:31:42 UTC] DEBUG [Salary Management]: Selected year: 2026, Join year: 2026, Current year: 2026
+[05-Jan-2026 06:31:42 UTC] DEBUG [Salary Management]: Generating months from 1 to 1 for year 2026
+[05-Jan-2026 06:31:42 UTC] DEBUG [Salary Management]: Month 01-2026: Status=paid, Net Salary=100.00, Leaves: Absent=0, Office=0
+[05-Jan-2026 06:31:42 UTC] DEBUG [Salary Management]: Generated 1 months for display
+[05-Jan-2026 06:31:42 UTC] DEBUG [Salary Management]: Summary - Paid: 1, Cancelled: 0, Pending: 0, Total Paid: 100.00
+[05-Jan-2026 06:31:42 UTC] DEBUG [Salary Management]: Payment history records: 1
+[05-Jan-2026 06:31:42 UTC] DEBUG [Salary Management]: Years list generated: 2026
+[05-Jan-2026 06:31:42 UTC] DEBUG [Salary Management]: Page rendering started
+[05-Jan-2026 06:32:21 UTC] DEBUG [Salary Management]: Session started
+[05-Jan-2026 06:32:21 UTC] DEBUG [Salary Management]: User authenticated: 88, Role: super_admin
+[05-Jan-2026 06:32:21 UTC] DEBUG [Salary Management]: Database connected successfully
+[05-Jan-2026 06:32:21 UTC] DEBUG [Salary Management]: Processing salary for teacher ID: 12
+[05-Jan-2026 06:32:21 UTC] DEBUG [Salary Management]: Teacher found: Aline Grant (Code: TCHR0156)
+[05-Jan-2026 06:32:21 UTC] DEBUG [Salary Management]: Selected year: 2026, Join year: 2026, Current year: 2026
+[05-Jan-2026 06:32:21 UTC] DEBUG [Salary Management]: Generating months from 1 to 1 for year 2026
+[05-Jan-2026 06:32:21 UTC] DEBUG [Salary Management]: Month 01-2026: Status=pending, Net Salary=42, Leaves: Absent=0, Office=0
+[05-Jan-2026 06:32:21 UTC] DEBUG [Salary Management]: Generated 1 months for display
+[05-Jan-2026 06:32:21 UTC] DEBUG [Salary Management]: Summary - Paid: 0, Cancelled: 0, Pending: 1, Total Paid: 0
+[05-Jan-2026 06:32:21 UTC] DEBUG [Salary Management]: Payment history records: 0
+[05-Jan-2026 06:32:21 UTC] DEBUG [Salary Management]: Years list generated: 2026
+[05-Jan-2026 06:32:21 UTC] DEBUG [Salary Management]: Page rendering started
+[05-Jan-2026 07:41:45 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'tl.reviewed_by' in 'ON' in /home/schoolin/public_html/teachers/leave_manage.php:219
+Stack trace:
+#0 /home/schoolin/public_html/teachers/leave_manage.php(219): mysqli->prepare('SELECT tl.*, \r\n...')
+#1 {main}
+  thrown in /home/schoolin/public_html/teachers/leave_manage.php on line 219
+[05-Jan-2026 07:41:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'tl.reviewed_by' in 'ON' in /home/schoolin/public_html/teachers/leave_manage.php:219
+Stack trace:
+#0 /home/schoolin/public_html/teachers/leave_manage.php(219): mysqli->prepare('SELECT tl.*, \r\n...')
+#1 {main}
+  thrown in /home/schoolin/public_html/teachers/leave_manage.php on line 219
+[05-Jan-2026 07:51:32 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'tl.applied_on' in 'ORDER BY' in /home/schoolin/public_html/teachers/leave_manage.php:177
+Stack trace:
+#0 /home/schoolin/public_html/teachers/leave_manage.php(177): mysqli->prepare('SELECT tl.*, \r\n...')
+#1 {main}
+  thrown in /home/schoolin/public_html/teachers/leave_manage.php on line 177
+[15-Feb-2026 13:39:40 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'first_name' in 'SELECT' in /home/schoolin/public_html/teachers/teacher_attendance_save.php:48
+Stack trace:
+#0 /home/schoolin/public_html/teachers/teacher_attendance_save.php(48): mysqli->prepare()
+#1 {main}
+  thrown in /home/schoolin/public_html/teachers/teacher_attendance_save.php on line 48
+[15-Feb-2026 13:39:45 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'first_name' in 'SELECT' in /home/schoolin/public_html/teachers/teacher_attendance_save.php:48
+Stack trace:
+#0 /home/schoolin/public_html/teachers/teacher_attendance_save.php(48): mysqli->prepare()
+#1 {main}
+  thrown in /home/schoolin/public_html/teachers/teacher_attendance_save.php on line 48
+[15-Feb-2026 13:39:50 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'first_name' in 'SELECT' in /home/schoolin/public_html/teachers/teacher_attendance_save.php:48
+Stack trace:
+#0 /home/schoolin/public_html/teachers/teacher_attendance_save.php(48): mysqli->prepare()
+#1 {main}
+  thrown in /home/schoolin/public_html/teachers/teacher_attendance_save.php on line 48
+[15-Feb-2026 13:39:57 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'first_name' in 'SELECT' in /home/schoolin/public_html/teachers/teacher_attendance_save.php:48
+Stack trace:
+#0 /home/schoolin/public_html/teachers/teacher_attendance_save.php(48): mysqli->prepare()
+#1 {main}
+  thrown in /home/schoolin/public_html/teachers/teacher_attendance_save.php on line 48
+[15-Feb-2026 13:40:34 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'first_name' in 'SELECT' in /home/schoolin/public_html/teachers/teacher_attendance_save.php:48
+Stack trace:
+#0 /home/schoolin/public_html/teachers/teacher_attendance_save.php(48): mysqli->prepare()
+#1 {main}
+  thrown in /home/schoolin/public_html/teachers/teacher_attendance_save.php on line 48
+[15-Feb-2026 13:40:41 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'first_name' in 'SELECT' in /home/schoolin/public_html/teachers/teacher_attendance_save.php:48
+Stack trace:
+#0 /home/schoolin/public_html/teachers/teacher_attendance_save.php(48): mysqli->prepare()
+#1 {main}
+  thrown in /home/schoolin/public_html/teachers/teacher_attendance_save.php on line 48
+[27-Feb-2026 08:26:58 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'ta.date' in 'WHERE' in /home/schoolin/public_html/teachers/leave_manage.php:180
+Stack trace:
+#0 /home/schoolin/public_html/teachers/leave_manage.php(180): mysqli->prepare()
+#1 {main}
+  thrown in /home/schoolin/public_html/teachers/leave_manage.php on line 180
+[26-Mar-2026 16:52:25 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'ta.date' in 'WHERE' in /home/schoolin/public_html/teachers/leave_manage.php:180
+Stack trace:
+#0 /home/schoolin/public_html/teachers/leave_manage.php(180): mysqli->prepare('SELECT ta.*, \r\n...')
+#1 {main}
+  thrown in /home/schoolin/public_html/teachers/leave_manage.php on line 180

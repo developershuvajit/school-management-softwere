@@ -1,0 +1,24 @@
+[20-Jan-2026 03:40:12 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/schoolin/public_html/config/database.php:8
+Stack trace:
+#0 /home/schoolin/public_html/config/database.php(8): mysqli->__construct('localhost', 'schoolin_school', Object(SensitiveParameterValue), 'schoolin_school...', '8889')
+#1 /home/schoolin/public_html/index.php(1259): include('/home/schoolin/...')
+#2 {main}
+  thrown in /home/schoolin/public_html/config/database.php on line 8
+[01-Feb-2026 05:26:14 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/schoolin/public_html/config/database.php:8
+Stack trace:
+#0 /home/schoolin/public_html/config/database.php(8): mysqli->__construct('localhost', 'schoolin_school', Object(SensitiveParameterValue), 'schoolin_school...', '8889')
+#1 /home/schoolin/public_html/index.php(1259): include('/home/schoolin/...')
+#2 {main}
+  thrown in /home/schoolin/public_html/config/database.php on line 8
+[03-Feb-2026 04:50:57 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/schoolin/public_html/config/database.php:8
+Stack trace:
+#0 /home/schoolin/public_html/config/database.php(8): mysqli->__construct('localhost', 'schoolin_school', Object(SensitiveParameterValue), 'schoolin_school...', '8889')
+#1 /home/schoolin/public_html/index.php(1177): include('/home/schoolin/...')
+#2 {main}
+  thrown in /home/schoolin/public_html/config/database.php on line 8
+[16-Mar-2026 22:54:07 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/schoolin/public_html/config/database.php:8
+Stack trace:
+#0 /home/schoolin/public_html/config/database.php(8): mysqli->__construct('localhost', 'schoolin_school', Object(SensitiveParameterValue), 'schoolin_school...', '8889')
+#1 /home/schoolin/public_html/index.php(1259): include('/home/schoolin/...')
+#2 {main}
+  thrown in /home/schoolin/public_html/config/database.php on line 8

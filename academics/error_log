@@ -1,0 +1,390 @@
+[30-Dec-2025 10:05:55 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'start_date' in 'ORDER BY' in /home/schoolin/public_html/academics/promote_class.php:104
+Stack trace:
+#0 /home/schoolin/public_html/academics/promote_class.php(104): mysqli->query('SELECT * FROM a...')
+#1 {main}
+  thrown in /home/schoolin/public_html/academics/promote_class.php on line 104
+[30-Dec-2025 10:05:56 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'start_date' in 'ORDER BY' in /home/schoolin/public_html/academics/promote_class.php:104
+Stack trace:
+#0 /home/schoolin/public_html/academics/promote_class.php(104): mysqli->query('SELECT * FROM a...')
+#1 {main}
+  thrown in /home/schoolin/public_html/academics/promote_class.php on line 104
+[30-Dec-2025 11:06:22 UTC] PHP Warning:  Undefined array key "academic_year" in /home/schoolin/public_html/academics/student_list.php on line 271
+[30-Dec-2025 11:06:22 UTC] PHP Warning:  Undefined array key "academic_year" in /home/schoolin/public_html/academics/student_list.php on line 271
+[30-Dec-2025 11:06:22 UTC] PHP Warning:  Undefined array key "academic_year" in /home/schoolin/public_html/academics/student_list.php on line 271
+[30-Dec-2025 11:06:22 UTC] PHP Warning:  Undefined array key "academic_year" in /home/schoolin/public_html/academics/student_list.php on line 271
+[30-Dec-2025 11:06:22 UTC] PHP Warning:  Undefined array key "academic_year" in /home/schoolin/public_html/academics/student_list.php on line 271
+[30-Dec-2025 11:06:22 UTC] PHP Warning:  Undefined array key "academic_year" in /home/schoolin/public_html/academics/student_list.php on line 271
+[30-Dec-2025 11:06:22 UTC] PHP Warning:  Undefined array key "academic_year" in /home/schoolin/public_html/academics/student_list.php on line 271
+[30-Dec-2025 11:06:22 UTC] PHP Warning:  Undefined array key "academic_year" in /home/schoolin/public_html/academics/student_list.php on line 271
+[30-Dec-2025 11:06:22 UTC] PHP Warning:  Undefined array key "academic_year" in /home/schoolin/public_html/academics/student_list.php on line 271
+[30-Dec-2025 11:06:22 UTC] PHP Warning:  Undefined array key "academic_year" in /home/schoolin/public_html/academics/student_list.php on line 271
+[30-Dec-2025 11:06:22 UTC] PHP Warning:  Undefined array key "academic_year" in /home/schoolin/public_html/academics/student_list.php on line 271
+[30-Dec-2025 11:06:22 UTC] PHP Warning:  Undefined array key "academic_year" in /home/schoolin/public_html/academics/student_list.php on line 271
+[30-Dec-2025 11:06:22 UTC] PHP Warning:  Undefined array key "academic_year" in /home/schoolin/public_html/academics/student_list.php on line 271
+[30-Dec-2025 11:06:22 UTC] PHP Warning:  Undefined array key "academic_year" in /home/schoolin/public_html/academics/student_list.php on line 271
+[30-Dec-2025 11:06:22 UTC] PHP Warning:  Undefined array key "academic_year" in /home/schoolin/public_html/academics/student_list.php on line 271
+[30-Dec-2025 11:06:22 UTC] PHP Warning:  Undefined array key "academic_year" in /home/schoolin/public_html/academics/student_list.php on line 271
+[30-Dec-2025 11:06:22 UTC] PHP Warning:  Undefined array key "academic_year" in /home/schoolin/public_html/academics/student_list.php on line 271
+[30-Dec-2025 11:06:22 UTC] PHP Warning:  Undefined array key "academic_year" in /home/schoolin/public_html/academics/student_list.php on line 271
+[30-Dec-2025 11:06:22 UTC] PHP Warning:  Undefined array key "academic_year" in /home/schoolin/public_html/academics/student_list.php on line 271
+[30-Dec-2025 11:06:22 UTC] PHP Warning:  Undefined array key "academic_year" in /home/schoolin/public_html/academics/student_list.php on line 271
+[30-Dec-2025 11:06:22 UTC] PHP Warning:  Undefined array key "academic_year" in /home/schoolin/public_html/academics/student_list.php on line 271
+[30-Dec-2025 11:06:22 UTC] PHP Warning:  Undefined array key "academic_year" in /home/schoolin/public_html/academics/student_list.php on line 271
+[30-Dec-2025 11:06:22 UTC] PHP Warning:  Undefined array key "academic_year" in /home/schoolin/public_html/academics/student_list.php on line 271
+[30-Dec-2025 11:06:22 UTC] PHP Warning:  Undefined array key "academic_year" in /home/schoolin/public_html/academics/student_list.php on line 271
+[30-Dec-2025 11:06:22 UTC] PHP Warning:  Undefined array key "academic_year" in /home/schoolin/public_html/academics/student_list.php on line 271
+[30-Dec-2025 11:06:22 UTC] PHP Warning:  Undefined array key "academic_year" in /home/schoolin/public_html/academics/student_list.php on line 271
+[30-Dec-2025 11:06:22 UTC] PHP Warning:  Undefined array key "academic_year" in /home/schoolin/public_html/academics/student_list.php on line 271
+[30-Dec-2025 11:06:22 UTC] PHP Warning:  Undefined array key "academic_year" in /home/schoolin/public_html/academics/student_list.php on line 271
+[30-Dec-2025 11:06:22 UTC] PHP Warning:  Undefined array key "academic_year" in /home/schoolin/public_html/academics/student_list.php on line 271
+[30-Dec-2025 11:06:22 UTC] PHP Warning:  Undefined array key "academic_year" in /home/schoolin/public_html/academics/student_list.php on line 271
+[30-Dec-2025 11:06:22 UTC] PHP Warning:  Undefined array key "academic_year" in /home/schoolin/public_html/academics/student_list.php on line 271
+[30-Dec-2025 11:06:22 UTC] PHP Warning:  Undefined array key "academic_year" in /home/schoolin/public_html/academics/student_list.php on line 271
+[30-Dec-2025 11:06:22 UTC] PHP Warning:  Undefined array key "academic_year" in /home/schoolin/public_html/academics/student_list.php on line 271
+[30-Dec-2025 11:06:22 UTC] PHP Warning:  Undefined array key "academic_year" in /home/schoolin/public_html/academics/student_list.php on line 271
+[30-Dec-2025 11:06:22 UTC] PHP Warning:  Undefined array key "academic_year" in /home/schoolin/public_html/academics/student_list.php on line 271
+[30-Dec-2025 11:06:22 UTC] PHP Warning:  Undefined array key "academic_year" in /home/schoolin/public_html/academics/student_list.php on line 271
+[30-Dec-2025 11:06:22 UTC] PHP Warning:  Undefined array key "academic_year" in /home/schoolin/public_html/academics/student_list.php on line 271
+[30-Dec-2025 11:06:22 UTC] PHP Warning:  Undefined array key "academic_year" in /home/schoolin/public_html/academics/student_list.php on line 271
+[30-Dec-2025 11:06:22 UTC] PHP Warning:  Undefined array key "academic_year" in /home/schoolin/public_html/academics/student_list.php on line 271
+[30-Dec-2025 11:06:22 UTC] PHP Warning:  Undefined array key "academic_year" in /home/schoolin/public_html/academics/student_list.php on line 271
+[30-Dec-2025 11:06:22 UTC] PHP Warning:  Undefined array key "academic_year" in /home/schoolin/public_html/academics/student_list.php on line 271
+[30-Dec-2025 11:06:22 UTC] PHP Warning:  Undefined array key "academic_year" in /home/schoolin/public_html/academics/student_list.php on line 271
+[30-Dec-2025 11:06:22 UTC] PHP Warning:  Undefined array key "academic_year" in /home/schoolin/public_html/academics/student_list.php on line 271
+[30-Dec-2025 11:06:22 UTC] PHP Warning:  Undefined array key "academic_year" in /home/schoolin/public_html/academics/student_list.php on line 271
+[30-Dec-2025 11:06:22 UTC] PHP Warning:  Undefined array key "academic_year" in /home/schoolin/public_html/academics/student_list.php on line 271
+[30-Dec-2025 11:06:22 UTC] PHP Warning:  Undefined array key "academic_year" in /home/schoolin/public_html/academics/student_list.php on line 271
+[30-Dec-2025 11:06:22 UTC] PHP Warning:  Undefined array key "academic_year" in /home/schoolin/public_html/academics/student_list.php on line 271
+[30-Dec-2025 11:06:22 UTC] PHP Warning:  Undefined array key "academic_year" in /home/schoolin/public_html/academics/student_list.php on line 271
+[30-Dec-2025 11:06:22 UTC] PHP Warning:  Undefined array key "academic_year" in /home/schoolin/public_html/academics/student_list.php on line 271
+[30-Dec-2025 11:06:22 UTC] PHP Warning:  Undefined array key "academic_year" in /home/schoolin/public_html/academics/student_list.php on line 271
+[30-Dec-2025 11:06:22 UTC] PHP Warning:  Undefined array key "academic_year" in /home/schoolin/public_html/academics/student_list.php on line 271
+[30-Dec-2025 11:06:22 UTC] PHP Warning:  Undefined array key "academic_year" in /home/schoolin/public_html/academics/student_list.php on line 271
+[30-Dec-2025 11:06:22 UTC] PHP Warning:  Undefined array key "academic_year" in /home/schoolin/public_html/academics/student_list.php on line 271
+[30-Dec-2025 11:06:22 UTC] PHP Warning:  Undefined array key "academic_year" in /home/schoolin/public_html/academics/student_list.php on line 271
+[30-Dec-2025 11:06:22 UTC] PHP Warning:  Undefined array key "academic_year" in /home/schoolin/public_html/academics/student_list.php on line 271
+[30-Dec-2025 11:06:22 UTC] PHP Warning:  Undefined array key "academic_year" in /home/schoolin/public_html/academics/student_list.php on line 271
+[30-Dec-2025 11:06:22 UTC] PHP Warning:  Undefined array key "academic_year" in /home/schoolin/public_html/academics/student_list.php on line 271
+[30-Dec-2025 11:06:22 UTC] PHP Warning:  Undefined array key "academic_year" in /home/schoolin/public_html/academics/student_list.php on line 271
+[30-Dec-2025 11:06:22 UTC] PHP Warning:  Undefined array key "academic_year" in /home/schoolin/public_html/academics/student_list.php on line 271
+[30-Dec-2025 11:06:22 UTC] PHP Warning:  Undefined array key "academic_year" in /home/schoolin/public_html/academics/student_list.php on line 271
+[30-Dec-2025 11:06:22 UTC] PHP Warning:  Undefined array key "academic_year" in /home/schoolin/public_html/academics/student_list.php on line 271
+[30-Dec-2025 11:06:22 UTC] PHP Warning:  Undefined array key "academic_year" in /home/schoolin/public_html/academics/student_list.php on line 271
+[30-Dec-2025 11:06:22 UTC] PHP Warning:  Undefined array key "academic_year" in /home/schoolin/public_html/academics/student_list.php on line 271
+[30-Dec-2025 11:06:22 UTC] PHP Warning:  Undefined array key "academic_year" in /home/schoolin/public_html/academics/student_list.php on line 271
+[30-Dec-2025 11:06:22 UTC] PHP Warning:  Undefined array key "academic_year" in /home/schoolin/public_html/academics/student_list.php on line 271
+[30-Dec-2025 11:06:22 UTC] PHP Warning:  Undefined array key "academic_year" in /home/schoolin/public_html/academics/student_list.php on line 271
+[30-Dec-2025 11:06:22 UTC] PHP Warning:  Undefined array key "academic_year" in /home/schoolin/public_html/academics/student_list.php on line 271
+[30-Dec-2025 11:06:22 UTC] PHP Warning:  Undefined array key "academic_year" in /home/schoolin/public_html/academics/student_list.php on line 271
+[30-Dec-2025 11:06:22 UTC] PHP Warning:  Undefined array key "academic_year" in /home/schoolin/public_html/academics/student_list.php on line 271
+[30-Dec-2025 11:06:22 UTC] PHP Warning:  Undefined array key "academic_year" in /home/schoolin/public_html/academics/student_list.php on line 271
+[30-Dec-2025 11:06:22 UTC] PHP Warning:  Undefined array key "academic_year" in /home/schoolin/public_html/academics/student_list.php on line 271
+[30-Dec-2025 11:06:22 UTC] PHP Warning:  Undefined array key "academic_year" in /home/schoolin/public_html/academics/student_list.php on line 271
+[30-Dec-2025 11:06:22 UTC] PHP Warning:  Undefined array key "academic_year" in /home/schoolin/public_html/academics/student_list.php on line 271
+[30-Dec-2025 14:53:57 UTC] PHP Warning:  Undefined variable $yearQuery in /home/schoolin/public_html/academics/view_parent.php on line 192
+[30-Dec-2025 14:53:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/schoolin/public_html/academics/view_parent.php:192
+Stack trace:
+#0 {main}
+  thrown in /home/schoolin/public_html/academics/view_parent.php on line 192
+[30-Dec-2025 14:55:06 UTC] PHP Warning:  Undefined variable $yearQuery in /home/schoolin/public_html/academics/view_parent.php on line 192
+[30-Dec-2025 14:55:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/schoolin/public_html/academics/view_parent.php:192
+Stack trace:
+#0 {main}
+  thrown in /home/schoolin/public_html/academics/view_parent.php on line 192
+[30-Dec-2025 14:55:07 UTC] PHP Warning:  Undefined variable $yearQuery in /home/schoolin/public_html/academics/view_parent.php on line 192
+[30-Dec-2025 14:55:07 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/schoolin/public_html/academics/view_parent.php:192
+Stack trace:
+#0 {main}
+  thrown in /home/schoolin/public_html/academics/view_parent.php on line 192
+[30-Dec-2025 14:58:38 UTC] PHP Warning:  Undefined variable $academicYearQuery in /home/schoolin/public_html/academics/view_parent.php on line 192
+[30-Dec-2025 14:58:38 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/schoolin/public_html/academics/view_parent.php:192
+Stack trace:
+#0 {main}
+  thrown in /home/schoolin/public_html/academics/view_parent.php on line 192
+[30-Dec-2025 14:58:57 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'status' in 'WHERE' in /home/schoolin/public_html/academics/view_parent.php:139
+Stack trace:
+#0 /home/schoolin/public_html/academics/view_parent.php(139): mysqli->query('\r\n    SELECT id...')
+#1 {main}
+  thrown in /home/schoolin/public_html/academics/view_parent.php on line 139
+[30-Dec-2025 14:58:58 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'status' in 'WHERE' in /home/schoolin/public_html/academics/view_parent.php:139
+Stack trace:
+#0 /home/schoolin/public_html/academics/view_parent.php(139): mysqli->query('\r\n    SELECT id...')
+#1 {main}
+  thrown in /home/schoolin/public_html/academics/view_parent.php on line 139
+[30-Dec-2025 14:58:59 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'status' in 'WHERE' in /home/schoolin/public_html/academics/view_parent.php:139
+Stack trace:
+#0 /home/schoolin/public_html/academics/view_parent.php(139): mysqli->query('\r\n    SELECT id...')
+#1 {main}
+  thrown in /home/schoolin/public_html/academics/view_parent.php on line 139
+[30-Dec-2025 14:58:59 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'status' in 'WHERE' in /home/schoolin/public_html/academics/view_parent.php:139
+Stack trace:
+#0 /home/schoolin/public_html/academics/view_parent.php(139): mysqli->query('\r\n    SELECT id...')
+#1 {main}
+  thrown in /home/schoolin/public_html/academics/view_parent.php on line 139
+[30-Dec-2025 14:58:59 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'status' in 'WHERE' in /home/schoolin/public_html/academics/view_parent.php:139
+Stack trace:
+#0 /home/schoolin/public_html/academics/view_parent.php(139): mysqli->query('\r\n    SELECT id...')
+#1 {main}
+  thrown in /home/schoolin/public_html/academics/view_parent.php on line 139
+[30-Dec-2025 14:58:59 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'status' in 'WHERE' in /home/schoolin/public_html/academics/view_parent.php:139
+Stack trace:
+#0 /home/schoolin/public_html/academics/view_parent.php(139): mysqli->query('\r\n    SELECT id...')
+#1 {main}
+  thrown in /home/schoolin/public_html/academics/view_parent.php on line 139
+[30-Dec-2025 14:59:27 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'status' in 'WHERE' in /home/schoolin/public_html/academics/view_parent.php:139
+Stack trace:
+#0 /home/schoolin/public_html/academics/view_parent.php(139): mysqli->query('\r\n    SELECT id...')
+#1 {main}
+  thrown in /home/schoolin/public_html/academics/view_parent.php on line 139
+[30-Dec-2025 14:59:29 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'status' in 'WHERE' in /home/schoolin/public_html/academics/view_parent.php:139
+Stack trace:
+#0 /home/schoolin/public_html/academics/view_parent.php(139): mysqli->query('\r\n    SELECT id...')
+#1 {main}
+  thrown in /home/schoolin/public_html/academics/view_parent.php on line 139
+[30-Dec-2025 14:59:29 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'status' in 'WHERE' in /home/schoolin/public_html/academics/view_parent.php:139
+Stack trace:
+#0 /home/schoolin/public_html/academics/view_parent.php(139): mysqli->query('\r\n    SELECT id...')
+#1 {main}
+  thrown in /home/schoolin/public_html/academics/view_parent.php on line 139
+[30-Dec-2025 14:59:29 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'status' in 'WHERE' in /home/schoolin/public_html/academics/view_parent.php:139
+Stack trace:
+#0 /home/schoolin/public_html/academics/view_parent.php(139): mysqli->query('\r\n    SELECT id...')
+#1 {main}
+  thrown in /home/schoolin/public_html/academics/view_parent.php on line 139
+[30-Dec-2025 14:59:29 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'status' in 'WHERE' in /home/schoolin/public_html/academics/view_parent.php:139
+Stack trace:
+#0 /home/schoolin/public_html/academics/view_parent.php(139): mysqli->query('\r\n    SELECT id...')
+#1 {main}
+  thrown in /home/schoolin/public_html/academics/view_parent.php on line 139
+[30-Dec-2025 15:00:51 UTC] PHP Warning:  Undefined variable $academicYearQuery in /home/schoolin/public_html/academics/view_parent.php on line 244
+[30-Dec-2025 15:00:51 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/schoolin/public_html/academics/view_parent.php:244
+Stack trace:
+#0 {main}
+  thrown in /home/schoolin/public_html/academics/view_parent.php on line 244
+[30-Dec-2025 15:00:52 UTC] PHP Warning:  Undefined variable $academicYearQuery in /home/schoolin/public_html/academics/view_parent.php on line 244
+[30-Dec-2025 15:00:52 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/schoolin/public_html/academics/view_parent.php:244
+Stack trace:
+#0 {main}
+  thrown in /home/schoolin/public_html/academics/view_parent.php on line 244
+[09-Jan-2026 13:41:46 UTC] PHP Warning:  Undefined variable $yearQuery in /home/schoolin/public_html/academics/view_parent.php on line 196
+[09-Jan-2026 13:42:43 UTC] PHP Warning:  Undefined variable $yearQuery in /home/schoolin/public_html/academics/view_parent.php on line 197
+[09-Jan-2026 13:42:59 UTC] PHP Warning:  Undefined variable $yearQuery in /home/schoolin/public_html/academics/view_parent.php on line 197
+[09-Jan-2026 13:43:24 UTC] PHP Warning:  Undefined variable $yearQuery in /home/schoolin/public_html/academics/view_parent.php on line 197
+[09-Jan-2026 13:43:45 UTC] PHP Warning:  Undefined variable $yearQuery in /home/schoolin/public_html/academics/view_parent.php on line 197
+[09-Jan-2026 13:44:14 UTC] PHP Warning:  Undefined variable $yearQuery in /home/schoolin/public_html/academics/view_parent.php on line 197
+[09-Jan-2026 13:44:50 UTC] PHP Warning:  Undefined variable $yearQuery in /home/schoolin/public_html/academics/view_parent.php on line 197
+[09-Jan-2026 13:45:05 UTC] PHP Warning:  Undefined variable $yearQuery in /home/schoolin/public_html/academics/view_parent.php on line 197
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "father_name" in /home/schoolin/public_html/academics/view_parent.php on line 191
+[18-Jan-2026 09:44:47 UTC] PHP Warning:  Undefined array key "mother_name" in /home/schoolin/public_html/academics/view_parent.php on line 192
+[30-Mar-2026 07:24:55 UTC] PHP Warning:  include(../config/db.php): Failed to open stream: No such file or directory in /home/schoolin/public_html/academics/save_progress.php on line 2
+[30-Mar-2026 07:24:55 UTC] PHP Warning:  include(../config/db.php): Failed to open stream: No such file or directory in /home/schoolin/public_html/academics/save_progress.php on line 2
+[30-Mar-2026 07:24:55 UTC] PHP Warning:  include(): Failed opening '../config/db.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/schoolin/public_html/academics/save_progress.php on line 2
+[30-Mar-2026 07:24:55 UTC] PHP Warning:  Undefined variable $conn in /home/schoolin/public_html/academics/save_progress.php on line 9
+[30-Mar-2026 07:24:55 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/schoolin/public_html/academics/save_progress.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/schoolin/public_html/academics/save_progress.php on line 9
+[30-Mar-2026 08:22:37 UTC] PHP Warning:  Undefined array key "student_id" in /home/schoolin/public_html/academics/save_progress.php on line 4
+[30-Mar-2026 08:22:37 UTC] PHP Warning:  Undefined array key "date" in /home/schoolin/public_html/academics/save_progress.php on line 5
+[30-Mar-2026 08:22:37 UTC] PHP Warning:  Undefined array key "progress" in /home/schoolin/public_html/academics/save_progress.php on line 6
+[30-Mar-2026 08:22:37 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/schoolin/public_html/academics/save_progress.php on line 28
+[30-Mar-2026 08:23:28 UTC] PHP Warning:  Undefined array key "student_id" in /home/schoolin/public_html/academics/save_progress.php on line 4
+[30-Mar-2026 08:23:28 UTC] PHP Warning:  Undefined array key "date" in /home/schoolin/public_html/academics/save_progress.php on line 5
+[30-Mar-2026 08:23:28 UTC] PHP Warning:  Undefined array key "progress" in /home/schoolin/public_html/academics/save_progress.php on line 6
+[30-Mar-2026 08:23:37 UTC] PHP Warning:  Undefined array key "student_id" in /home/schoolin/public_html/academics/save_progress.php on line 4
+[30-Mar-2026 08:23:37 UTC] PHP Warning:  Undefined array key "date" in /home/schoolin/public_html/academics/save_progress.php on line 5
+[30-Mar-2026 08:23:37 UTC] PHP Warning:  Undefined array key "progress" in /home/schoolin/public_html/academics/save_progress.php on line 6

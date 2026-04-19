@@ -1,0 +1,448 @@
+[12-Jan-2026 08:21:45 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'transport' in 'SELECT' in /home/schoolin/public_html/attendance/attendance_out_save.php:23
+Stack trace:
+#0 /home/schoolin/public_html/attendance/attendance_out_save.php(23): mysqli->prepare('SELECT id, stud...')
+#1 {main}
+  thrown in /home/schoolin/public_html/attendance/attendance_out_save.php on line 23
+[12-Jan-2026 08:21:55 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'transport' in 'SELECT' in /home/schoolin/public_html/attendance/attendance_out_save.php:23
+Stack trace:
+#0 /home/schoolin/public_html/attendance/attendance_out_save.php(23): mysqli->prepare('SELECT id, stud...')
+#1 {main}
+  thrown in /home/schoolin/public_html/attendance/attendance_out_save.php on line 23
+[12-Jan-2026 08:22:05 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'transport' in 'SELECT' in /home/schoolin/public_html/attendance/attendance_out_save.php:23
+Stack trace:
+#0 /home/schoolin/public_html/attendance/attendance_out_save.php(23): mysqli->prepare('SELECT id, stud...')
+#1 {main}
+  thrown in /home/schoolin/public_html/attendance/attendance_out_save.php on line 23
+[12-Jan-2026 08:22:35 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'transport' in 'SELECT' in /home/schoolin/public_html/attendance/attendance_out_save.php:23
+Stack trace:
+#0 /home/schoolin/public_html/attendance/attendance_out_save.php(23): mysqli->prepare('SELECT id, stud...')
+#1 {main}
+  thrown in /home/schoolin/public_html/attendance/attendance_out_save.php on line 23
+[12-Jan-2026 08:33:44 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'parent_id' in 'SELECT' in /home/schoolin/public_html/attendance/attendance_out_save.php:24
+Stack trace:
+#0 /home/schoolin/public_html/attendance/attendance_out_save.php(24): mysqli->prepare('\r\n    SELECT id...')
+#1 {main}
+  thrown in /home/schoolin/public_html/attendance/attendance_out_save.php on line 24
+[12-Jan-2026 08:33:51 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'parent_id' in 'SELECT' in /home/schoolin/public_html/attendance/attendance_out_save.php:24
+Stack trace:
+#0 /home/schoolin/public_html/attendance/attendance_out_save.php(24): mysqli->prepare('\r\n    SELECT id...')
+#1 {main}
+  thrown in /home/schoolin/public_html/attendance/attendance_out_save.php on line 24
+[12-Jan-2026 08:33:59 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'parent_id' in 'SELECT' in /home/schoolin/public_html/attendance/attendance_out_save.php:24
+Stack trace:
+#0 /home/schoolin/public_html/attendance/attendance_out_save.php(24): mysqli->prepare('\r\n    SELECT id...')
+#1 {main}
+  thrown in /home/schoolin/public_html/attendance/attendance_out_save.php on line 24
+[12-Jan-2026 08:34:15 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'parent_id' in 'SELECT' in /home/schoolin/public_html/attendance/attendance_out_save.php:24
+Stack trace:
+#0 /home/schoolin/public_html/attendance/attendance_out_save.php(24): mysqli->prepare('\r\n    SELECT id...')
+#1 {main}
+  thrown in /home/schoolin/public_html/attendance/attendance_out_save.php on line 24
+[12-Jan-2026 08:34:17 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'parent_id' in 'SELECT' in /home/schoolin/public_html/attendance/attendance_out_save.php:24
+Stack trace:
+#0 /home/schoolin/public_html/attendance/attendance_out_save.php(24): mysqli->prepare('\r\n    SELECT id...')
+#1 {main}
+  thrown in /home/schoolin/public_html/attendance/attendance_out_save.php on line 24
+[12-Jan-2026 08:34:19 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'parent_id' in 'SELECT' in /home/schoolin/public_html/attendance/attendance_out_save.php:24
+Stack trace:
+#0 /home/schoolin/public_html/attendance/attendance_out_save.php(24): mysqli->prepare('\r\n    SELECT id...')
+#1 {main}
+  thrown in /home/schoolin/public_html/attendance/attendance_out_save.php on line 24
+[12-Jan-2026 08:34:21 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'parent_id' in 'SELECT' in /home/schoolin/public_html/attendance/attendance_out_save.php:24
+Stack trace:
+#0 /home/schoolin/public_html/attendance/attendance_out_save.php(24): mysqli->prepare('\r\n    SELECT id...')
+#1 {main}
+  thrown in /home/schoolin/public_html/attendance/attendance_out_save.php on line 24
+[12-Jan-2026 08:42:08 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'att_type' in 'WHERE' in /home/schoolin/public_html/attendance/attendance_out_save.php:53
+Stack trace:
+#0 /home/schoolin/public_html/attendance/attendance_out_save.php(53): mysqli->prepare('SELECT id FROM ...')
+#1 {main}
+  thrown in /home/schoolin/public_html/attendance/attendance_out_save.php on line 53
+[12-Jan-2026 08:43:26 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'att_type' in 'WHERE' in /home/schoolin/public_html/attendance/attendance_out_save.php:65
+Stack trace:
+#0 /home/schoolin/public_html/attendance/attendance_out_save.php(65): mysqli->prepare('SELECT id FROM ...')
+#1 {main}
+  thrown in /home/schoolin/public_html/attendance/attendance_out_save.php on line 65
+[12-Jan-2026 08:43:35 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'att_type' in 'WHERE' in /home/schoolin/public_html/attendance/attendance_out_save.php:65
+Stack trace:
+#0 /home/schoolin/public_html/attendance/attendance_out_save.php(65): mysqli->prepare('SELECT id FROM ...')
+#1 {main}
+  thrown in /home/schoolin/public_html/attendance/attendance_out_save.php on line 65
+[12-Jan-2026 08:45:23 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'att_type' in 'WHERE' in /home/schoolin/public_html/attendance/attendance_out_save.php:79
+Stack trace:
+#0 /home/schoolin/public_html/attendance/attendance_out_save.php(79): mysqli->prepare('SELECT id FROM ...')
+#1 {main}
+  thrown in /home/schoolin/public_html/attendance/attendance_out_save.php on line 79
+[12-Jan-2026 08:45:25 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'att_type' in 'WHERE' in /home/schoolin/public_html/attendance/attendance_out_save.php:79
+Stack trace:
+#0 /home/schoolin/public_html/attendance/attendance_out_save.php(79): mysqli->prepare('SELECT id FROM ...')
+#1 {main}
+  thrown in /home/schoolin/public_html/attendance/attendance_out_save.php on line 79
+[12-Jan-2026 08:45:28 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'att_type' in 'WHERE' in /home/schoolin/public_html/attendance/attendance_out_save.php:79
+Stack trace:
+#0 /home/schoolin/public_html/attendance/attendance_out_save.php(79): mysqli->prepare('SELECT id FROM ...')
+#1 {main}
+  thrown in /home/schoolin/public_html/attendance/attendance_out_save.php on line 79
+[12-Jan-2026 08:45:31 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'att_type' in 'WHERE' in /home/schoolin/public_html/attendance/attendance_out_save.php:79
+Stack trace:
+#0 /home/schoolin/public_html/attendance/attendance_out_save.php(79): mysqli->prepare('SELECT id FROM ...')
+#1 {main}
+  thrown in /home/schoolin/public_html/attendance/attendance_out_save.php on line 79
+[12-Jan-2026 08:45:52 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'att_type' in 'WHERE' in /home/schoolin/public_html/attendance/attendance_out_save.php:53
+Stack trace:
+#0 /home/schoolin/public_html/attendance/attendance_out_save.php(53): mysqli->prepare('SELECT id FROM ...')
+#1 {main}
+  thrown in /home/schoolin/public_html/attendance/attendance_out_save.php on line 53
+[12-Jan-2026 08:47:36 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'attendance_date' in 'WHERE' in /home/schoolin/public_html/attendance/attendance_out_save.php:93
+Stack trace:
+#0 /home/schoolin/public_html/attendance/attendance_out_save.php(93): mysqli->prepare('\r\n    SELECT id...')
+#1 {main}
+  thrown in /home/schoolin/public_html/attendance/attendance_out_save.php on line 93
+[12-Jan-2026 08:48:22 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'attendance_date' in 'WHERE' in /home/schoolin/public_html/attendance/attendance_out_save.php:93
+Stack trace:
+#0 /home/schoolin/public_html/attendance/attendance_out_save.php(93): mysqli->prepare('\r\n    SELECT id...')
+#1 {main}
+  thrown in /home/schoolin/public_html/attendance/attendance_out_save.php on line 93
+[12-Jan-2026 08:48:31 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'attendance_date' in 'WHERE' in /home/schoolin/public_html/attendance/attendance_out_save.php:93
+Stack trace:
+#0 /home/schoolin/public_html/attendance/attendance_out_save.php(93): mysqli->prepare('\r\n    SELECT id...')
+#1 {main}
+  thrown in /home/schoolin/public_html/attendance/attendance_out_save.php on line 93
+[16-Jan-2026 03:18:18 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:18 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Warning:  Undefined array key "roll_number" in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[16-Jan-2026 03:18:34 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/schoolin/public_html/attendance/attendance_report.php on line 134
+[03-Feb-2026 08:07:59 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/schoolin/public_html/config/database.php:8
+Stack trace:
+#0 /home/schoolin/public_html/config/database.php(8): mysqli->__construct('localhost', 'schoolin_school', Object(SensitiveParameterValue), 'schoolin_school...', '8889')
+#1 /home/schoolin/public_html/attendance/attendance_save.php(3): require_once('/home/schoolin/...')
+#2 {main}
+  thrown in /home/schoolin/public_html/config/database.php on line 8
+[03-Feb-2026 08:16:10 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/schoolin/public_html/config/database.php:8
+Stack trace:
+#0 /home/schoolin/public_html/config/database.php(8): mysqli->__construct('localhost', 'schoolin_school', Object(SensitiveParameterValue), 'schoolin_school...', '8889')
+#1 /home/schoolin/public_html/attendance/attendance_save.php(3): require_once('/home/schoolin/...')
+#2 {main}
+  thrown in /home/schoolin/public_html/config/database.php on line 8
+[03-Feb-2026 08:16:20 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/schoolin/public_html/config/database.php:8
+Stack trace:
+#0 /home/schoolin/public_html/config/database.php(8): mysqli->__construct('localhost', 'schoolin_school', Object(SensitiveParameterValue), 'schoolin_school...', '8889')
+#1 /home/schoolin/public_html/attendance/attendance_save.php(3): require_once('/home/schoolin/...')
+#2 {main}
+  thrown in /home/schoolin/public_html/config/database.php on line 8
+[03-Feb-2026 04:49:48 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/schoolin/public_html/config/database.php:8
+Stack trace:
+#0 /home/schoolin/public_html/config/database.php(8): mysqli->__construct('localhost', 'schoolin_school', Object(SensitiveParameterValue), 'schoolin_school...', '8889')
+#1 /home/schoolin/public_html/attendance/generate_idcard.php(9): include('/home/schoolin/...')
+#2 {main}
+  thrown in /home/schoolin/public_html/config/database.php on line 8
+[03-Feb-2026 04:50:50 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/schoolin/public_html/config/database.php:8
+Stack trace:
+#0 /home/schoolin/public_html/config/database.php(8): mysqli->__construct('localhost', 'schoolin_school', Object(SensitiveParameterValue), 'schoolin_school...', '8889')
+#1 /home/schoolin/public_html/attendance/generate_idcard.php(9): include('/home/schoolin/...')
+#2 {main}
+  thrown in /home/schoolin/public_html/config/database.php on line 8
+[03-Feb-2026 04:51:59 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/schoolin/public_html/config/database.php:8
+Stack trace:
+#0 /home/schoolin/public_html/config/database.php(8): mysqli->__construct('localhost', 'schoolin_school', Object(SensitiveParameterValue), 'schoolin_school...', '8889')
+#1 /home/schoolin/public_html/attendance/generate_idcard.php(9): include('/home/schoolin/...')
+#2 {main}
+  thrown in /home/schoolin/public_html/config/database.php on line 8
+[03-Feb-2026 05:16:03 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/schoolin/public_html/config/database.php:8
+Stack trace:
+#0 /home/schoolin/public_html/config/database.php(8): mysqli->__construct('localhost', 'schoolin_school', Object(SensitiveParameterValue), 'schoolin_school...', '8889')
+#1 /home/schoolin/public_html/attendance/attendance.php(11): include('/home/schoolin/...')
+#2 {main}
+  thrown in /home/schoolin/public_html/config/database.php on line 8
+[03-Feb-2026 10:47:19 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/schoolin/public_html/config/database.php:8
+Stack trace:
+#0 /home/schoolin/public_html/config/database.php(8): mysqli->__construct('localhost', 'schoolin_school', Object(SensitiveParameterValue), 'schoolin_school...', '8889')
+#1 /home/schoolin/public_html/attendance/attendance_save.php(3): require_once('/home/schoolin/...')
+#2 {main}
+  thrown in /home/schoolin/public_html/config/database.php on line 8
+[03-Feb-2026 11:04:03 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/schoolin/public_html/config/database.php:8
+Stack trace:
+#0 /home/schoolin/public_html/config/database.php(8): mysqli->__construct('localhost', 'schoolin_school', Object(SensitiveParameterValue), 'schoolin_school...', '8889')
+#1 /home/schoolin/public_html/attendance/attendance_save.php(3): require_once('/home/schoolin/...')
+#2 {main}
+  thrown in /home/schoolin/public_html/config/database.php on line 8
+[03-Feb-2026 11:05:19 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/schoolin/public_html/config/database.php:8
+Stack trace:
+#0 /home/schoolin/public_html/config/database.php(8): mysqli->__construct('localhost', 'schoolin_school', Object(SensitiveParameterValue), 'schoolin_school...', '8889')
+#1 /home/schoolin/public_html/attendance/attendance_out_save.php(3): require_once('/home/schoolin/...')
+#2 {main}
+  thrown in /home/schoolin/public_html/config/database.php on line 8
+[03-Feb-2026 11:05:27 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/schoolin/public_html/config/database.php:8
+Stack trace:
+#0 /home/schoolin/public_html/config/database.php(8): mysqli->__construct('localhost', 'schoolin_school', Object(SensitiveParameterValue), 'schoolin_school...', '8889')
+#1 /home/schoolin/public_html/attendance/attendance_save.php(3): require_once('/home/schoolin/...')
+#2 {main}
+  thrown in /home/schoolin/public_html/config/database.php on line 8
+[03-Feb-2026 11:05:29 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/schoolin/public_html/config/database.php:8
+Stack trace:
+#0 /home/schoolin/public_html/config/database.php(8): mysqli->__construct('localhost', 'schoolin_school', Object(SensitiveParameterValue), 'schoolin_school...', '8889')
+#1 /home/schoolin/public_html/attendance/attendance_out_save.php(3): require_once('/home/schoolin/...')
+#2 {main}
+  thrown in /home/schoolin/public_html/config/database.php on line 8
+[03-Feb-2026 11:06:21 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/schoolin/public_html/config/database.php:8
+Stack trace:
+#0 /home/schoolin/public_html/config/database.php(8): mysqli->__construct('localhost', 'schoolin_school', Object(SensitiveParameterValue), 'schoolin_school...', '8889')
+#1 /home/schoolin/public_html/attendance/attendance_out_save.php(3): require_once('/home/schoolin/...')
+#2 {main}
+  thrown in /home/schoolin/public_html/config/database.php on line 8
+[03-Feb-2026 11:06:31 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/schoolin/public_html/config/database.php:8
+Stack trace:
+#0 /home/schoolin/public_html/config/database.php(8): mysqli->__construct('localhost', 'schoolin_school', Object(SensitiveParameterValue), 'schoolin_school...', '8889')
+#1 /home/schoolin/public_html/attendance/attendance_out_save.php(3): require_once('/home/schoolin/...')
+#2 {main}
+  thrown in /home/schoolin/public_html/config/database.php on line 8
+[05-Feb-2026 07:56:03 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/schoolin/public_html/config/database.php:8
+Stack trace:
+#0 /home/schoolin/public_html/config/database.php(8): mysqli->__construct()
+#1 /home/schoolin/public_html/attendance/attendance_save.php(3): require_once('/home/schoolin/...')
+#2 {main}
+  thrown in /home/schoolin/public_html/config/database.php on line 8
+[05-Feb-2026 10:48:08 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/schoolin/public_html/config/database.php:8
+Stack trace:
+#0 /home/schoolin/public_html/config/database.php(8): mysqli->__construct()
+#1 /home/schoolin/public_html/attendance/attendance_save.php(3): require_once('/home/schoolin/...')
+#2 {main}
+  thrown in /home/schoolin/public_html/config/database.php on line 8
+[05-Feb-2026 05:32:26 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/schoolin/public_html/config/database.php:8
+Stack trace:
+#0 /home/schoolin/public_html/config/database.php(8): mysqli->__construct()
+#1 /home/schoolin/public_html/attendance/attendense_out.php(11): include('/home/schoolin/...')
+#2 {main}
+  thrown in /home/schoolin/public_html/config/database.php on line 8
+[05-Feb-2026 05:32:29 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/schoolin/public_html/config/database.php:8
+Stack trace:
+#0 /home/schoolin/public_html/config/database.php(8): mysqli->__construct()
+#1 /home/schoolin/public_html/attendance/attendense_out.php(11): include('/home/schoolin/...')
+#2 {main}
+  thrown in /home/schoolin/public_html/config/database.php on line 8
+[10-Feb-2026 09:29:48 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/schoolin/public_html/config/database.php:8
+Stack trace:
+#0 /home/schoolin/public_html/config/database.php(8): mysqli->__construct()
+#1 /home/schoolin/public_html/attendance/attendance_report.php(12): include('/home/schoolin/...')
+#2 {main}
+  thrown in /home/schoolin/public_html/config/database.php on line 8
+[10-Feb-2026 15:20:06 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/schoolin/public_html/config/database.php:8
+Stack trace:
+#0 /home/schoolin/public_html/config/database.php(8): mysqli->__construct()
+#1 /home/schoolin/public_html/attendance/attendance_out_save.php(3): require_once('/home/schoolin/...')
+#2 {main}
+  thrown in /home/schoolin/public_html/config/database.php on line 8
+[11-Feb-2026 07:59:46 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/schoolin/public_html/config/database.php:8
+Stack trace:
+#0 /home/schoolin/public_html/config/database.php(8): mysqli->__construct()
+#1 /home/schoolin/public_html/attendance/attendance_save.php(3): require_once('/home/schoolin/...')
+#2 {main}
+  thrown in /home/schoolin/public_html/config/database.php on line 8
+[11-Feb-2026 08:01:01 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/schoolin/public_html/config/database.php:8
+Stack trace:
+#0 /home/schoolin/public_html/config/database.php(8): mysqli->__construct()
+#1 /home/schoolin/public_html/attendance/attendance_save.php(3): require_once('/home/schoolin/...')
+#2 {main}
+  thrown in /home/schoolin/public_html/config/database.php on line 8
+[11-Feb-2026 08:01:17 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/schoolin/public_html/config/database.php:8
+Stack trace:
+#0 /home/schoolin/public_html/config/database.php(8): mysqli->__construct()
+#1 /home/schoolin/public_html/attendance/attendance_save.php(3): require_once('/home/schoolin/...')
+#2 {main}
+  thrown in /home/schoolin/public_html/config/database.php on line 8
+[16-Feb-2026 11:03:28 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/schoolin/public_html/config/database.php:8
+Stack trace:
+#0 /home/schoolin/public_html/config/database.php(8): mysqli->__construct()
+#1 /home/schoolin/public_html/attendance/attendance_out_save.php(3): require_once('/home/schoolin/...')
+#2 {main}
+  thrown in /home/schoolin/public_html/config/database.php on line 8
+[16-Feb-2026 11:11:17 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/schoolin/public_html/config/database.php:8
+Stack trace:
+#0 /home/schoolin/public_html/config/database.php(8): mysqli->__construct()
+#1 /home/schoolin/public_html/attendance/attendance_out_save.php(3): require_once('/home/schoolin/...')
+#2 {main}
+  thrown in /home/schoolin/public_html/config/database.php on line 8
+[25-Mar-2026 08:12:18 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/schoolin/public_html/config/database.php:8
+Stack trace:
+#0 /home/schoolin/public_html/config/database.php(8): mysqli->__construct('localhost', 'schoolin_school', Object(SensitiveParameterValue), 'schoolin_school...', '8889')
+#1 /home/schoolin/public_html/attendance/attendance_save.php(3): require_once('/home/schoolin/...')
+#2 {main}
+  thrown in /home/schoolin/public_html/config/database.php on line 8
+[07-Apr-2026 07:48:09 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/schoolin/public_html/config/database.php:8
+Stack trace:
+#0 /home/schoolin/public_html/config/database.php(8): mysqli->__construct('localhost', 'schoolin_school', Object(SensitiveParameterValue), 'schoolin_school...', '8889')
+#1 /home/schoolin/public_html/attendance/attendance_save.php(3): require_once('/home/schoolin/...')
+#2 {main}
+  thrown in /home/schoolin/public_html/config/database.php on line 8

@@ -1,0 +1,18 @@
+[12-Jan-2026 03:51:13 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'schoolin_school_india_junior.user_fcm_tokens' doesn't exist in /home/schoolin/public_html/parents_portal/dashboard.php:250
+Stack trace:
+#0 /home/schoolin/public_html/parents_portal/dashboard.php(250): mysqli->query('SELECT token FR...')
+#1 {main}
+  thrown in /home/schoolin/public_html/parents_portal/dashboard.php on line 250
+[12-Jan-2026 04:19:41 UTC] PHP Warning:  Undefined variable $success_message in /home/schoolin/public_html/parents_portal/reset-password.php on line 184
+[12-Jan-2026 04:19:41 UTC] PHP Warning:  Undefined variable $error_message in /home/schoolin/public_html/parents_portal/reset-password.php on line 194
+[12-Jan-2026 04:21:12 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'updated_at' in 'SET' in /home/schoolin/public_html/parents_portal/reset-password.php:55
+Stack trace:
+#0 /home/schoolin/public_html/parents_portal/reset-password.php(55): mysqli->prepare('UPDATE users SE...')
+#1 {main}
+  thrown in /home/schoolin/public_html/parents_portal/reset-password.php on line 55
+[03-Feb-2026 14:18:06 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/schoolin/public_html/config/database.php:8
+Stack trace:
+#0 /home/schoolin/public_html/config/database.php(8): mysqli->__construct()
+#1 /home/schoolin/public_html/parents_portal/dashboard.php(11): include('/home/schoolin/...')
+#2 {main}
+  thrown in /home/schoolin/public_html/config/database.php on line 8

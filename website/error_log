@@ -1,0 +1,118 @@
+[11-Jan-2026 13:30:01 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of variables must match the number of parameters in the prepared statement in /home/schoolin/public_html/website/notice_section.php:44
+Stack trace:
+#0 /home/schoolin/public_html/website/notice_section.php(44): mysqli_stmt->bind_param('sssss', 'Opening of Scho...', '\xE0\xA6\x8F\xE0\xA6\xA4\xE0\xA6\xA6\xE0\xA7\x8D\xE0\xA6\xAC...', '2026-01-12 09:0...', '', 'event')
+#1 {main}
+  thrown in /home/schoolin/public_html/website/notice_section.php on line 44
+[25-Jan-2026 08:43:40 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/schoolin/public_html/website/notice_section.php:57
+Stack trace:
+#0 /home/schoolin/public_html/website/notice_section.php(57): mysqli_stmt->bind_param('ssss', '\xF0\x9F\x93\xA2 \xE0\xA6\xB8\xE0\xA7\x8D\xE0\xA6\x95\xE0...', '\xF0\x9F\x93\xA2 \xE0\xA6\xB8\xE0\xA7\x8D\xE0\xA6\x95\xE0...', '2026-01-26 08:0...', '2026-01-28 11:0...', 'general')
+#1 {main}
+  thrown in /home/schoolin/public_html/website/notice_section.php on line 57
+[26-Jan-2026 16:22:40 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of variables must match the number of parameters in the prepared statement in /home/schoolin/public_html/website/notice_section.php:44
+Stack trace:
+#0 /home/schoolin/public_html/website/notice_section.php(44): mysqli_stmt->bind_param('sssss', 'cc', 'cc', '2026-01-26 16:2...', '', 'general')
+#1 {main}
+  thrown in /home/schoolin/public_html/website/notice_section.php on line 44
+[26-Jan-2026 16:38:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/schoolin/public_html/website/event_section.php:37) in /home/schoolin/public_html/website/event_section.php on line 283
+[26-Mar-2026 16:53:56 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/schoolin/public_html/website/notice_section.php:57
+Stack trace:
+#0 /home/schoolin/public_html/website/notice_section.php(57): mysqli_stmt->bind_param('ssss', 'Labore ducimus ...', 'Ducimus laboris...', '1976-05-04 12:5...', '2016-10-12 20:5...', 'important')
+#1 {main}
+  thrown in /home/schoolin/public_html/website/notice_section.php on line 57
+[26-Mar-2026 16:56:55 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/schoolin/public_html/website/notice_section.php on line 4
+[26-Mar-2026 16:56:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/schoolin/public_html/website/notice_section.php:1) in /home/schoolin/public_html/website/notice_section.php on line 7
+[26-Mar-2026 16:57:18 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/schoolin/public_html/website/notice_section.php:1) in /home/schoolin/public_html/website/notice_section.php on line 159
+[26-Mar-2026 16:58:01 UTC] PHP Parse error:  syntax error, unexpected identifier "notice_section", expecting ")" in /home/schoolin/public_html/website/notice_section.php on line 159
+[26-Mar-2026 16:58:22 UTC] PHP Parse error:  Unclosed '(' does not match ']' in /home/schoolin/public_html/website/notice_section.php on line 159
+[26-Mar-2026 16:58:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/schoolin/public_html/website/notice_section.php:1) in /home/schoolin/public_html/website/notice_section.php on line 159
+[26-Mar-2026 16:59:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/schoolin/public_html/website/notice_section.php:1) in /home/schoolin/public_html/website/notice_section.php on line 160
+[26-Mar-2026 17:01:04 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/schoolin/public_html/website/notice_section.php on line 155
+[26-Mar-2026 17:01:07 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/schoolin/public_html/website/notice_section.php on line 155
+[26-Mar-2026 17:01:31 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/schoolin/public_html/website/notice_section.php on line 3
+[26-Mar-2026 17:01:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/schoolin/public_html/website/notice_section.php:1) in /home/schoolin/public_html/website/notice_section.php on line 142
+[26-Mar-2026 17:02:12 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/schoolin/public_html/website/notice_section.php on line 3
+[26-Mar-2026 17:02:12 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/schoolin/public_html/website/notice_section.php:1) in /home/schoolin/public_html/website/notice_section.php on line 142
+[26-Mar-2026 17:02:13 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/schoolin/public_html/website/notice_section.php on line 3
+[26-Mar-2026 17:02:13 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/schoolin/public_html/includes/sidebar_logic.php on line 4
+[26-Mar-2026 17:02:13 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/schoolin/public_html/includes/sidebar_logic.php on line 9
+[26-Mar-2026 17:02:13 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/schoolin/public_html/website/notice_section.php:1) in /home/schoolin/public_html/includes/sidebar_logic.php on line 10
+[26-Mar-2026 17:03:41 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/schoolin/public_html/website/notice_section.php on line 4
+[26-Mar-2026 17:03:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/schoolin/public_html/website/notice_section.php:1) in /home/schoolin/public_html/website/notice_section.php on line 10
+[26-Mar-2026 17:03:43 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/schoolin/public_html/website/notice_section.php on line 4
+[26-Mar-2026 17:03:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/schoolin/public_html/website/notice_section.php:1) in /home/schoolin/public_html/website/notice_section.php on line 10
+[26-Mar-2026 17:03:44 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/schoolin/public_html/website/notice_section.php on line 4
+[26-Mar-2026 17:03:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/schoolin/public_html/website/notice_section.php:1) in /home/schoolin/public_html/website/notice_section.php on line 10
+[26-Mar-2026 17:03:58 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/schoolin/public_html/website/notice_section.php:1) in /home/schoolin/public_html/website/notice_section.php on line 9
+[26-Mar-2026 17:03:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/schoolin/public_html/website/notice_section.php:1) in /home/schoolin/public_html/website/notice_section.php on line 9
+[26-Mar-2026 17:04:11 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/schoolin/public_html/includes/sidebar_logic.php on line 4
+[26-Mar-2026 17:04:11 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/schoolin/public_html/includes/sidebar_logic.php on line 9
+[26-Mar-2026 17:04:11 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/schoolin/public_html/website/notice_section.php:1) in /home/schoolin/public_html/includes/sidebar_logic.php on line 10
+[26-Mar-2026 17:04:11 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/schoolin/public_html/includes/sidebar_logic.php on line 4
+[26-Mar-2026 17:04:11 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/schoolin/public_html/includes/sidebar_logic.php on line 9
+[26-Mar-2026 17:04:11 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/schoolin/public_html/website/notice_section.php:1) in /home/schoolin/public_html/includes/sidebar_logic.php on line 10
+[26-Mar-2026 17:04:12 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/schoolin/public_html/includes/sidebar_logic.php on line 4
+[26-Mar-2026 17:04:12 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/schoolin/public_html/includes/sidebar_logic.php on line 9
+[26-Mar-2026 17:04:12 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/schoolin/public_html/website/notice_section.php:1) in /home/schoolin/public_html/includes/sidebar_logic.php on line 10
+[26-Mar-2026 17:04:50 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/schoolin/public_html/includes/sidebar_logic.php on line 4
+[26-Mar-2026 17:04:50 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/schoolin/public_html/includes/sidebar_logic.php on line 9
+[26-Mar-2026 17:04:50 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/schoolin/public_html/website/notice_section.php:1) in /home/schoolin/public_html/includes/sidebar_logic.php on line 10
+[26-Mar-2026 17:04:52 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/schoolin/public_html/includes/sidebar_logic.php on line 4
+[26-Mar-2026 17:04:52 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/schoolin/public_html/includes/sidebar_logic.php on line 9
+[26-Mar-2026 17:04:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/schoolin/public_html/website/notice_section.php:1) in /home/schoolin/public_html/includes/sidebar_logic.php on line 10
+[26-Mar-2026 17:18:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/schoolin/public_html/website/notice_section.php:54) in /home/schoolin/public_html/website/notice_section.php on line 179
+[27-Mar-2026 07:02:24 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/schoolin/public_html/website/notice_section.php on line 4
+[27-Mar-2026 07:02:24 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/schoolin/public_html/includes/sidebar_logic.php on line 4
+[27-Mar-2026 07:02:24 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/schoolin/public_html/includes/sidebar_logic.php on line 9
+[27-Mar-2026 07:02:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/schoolin/public_html/website/notice_section.php:1) in /home/schoolin/public_html/includes/sidebar_logic.php on line 10
+[27-Mar-2026 07:02:28 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/schoolin/public_html/website/notice_section.php on line 4
+[27-Mar-2026 07:02:28 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/schoolin/public_html/includes/sidebar_logic.php on line 4
+[27-Mar-2026 07:02:28 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/schoolin/public_html/includes/sidebar_logic.php on line 9
+[27-Mar-2026 07:02:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/schoolin/public_html/website/notice_section.php:1) in /home/schoolin/public_html/includes/sidebar_logic.php on line 10
+[27-Mar-2026 07:03:31 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/schoolin/public_html/website/notice_section.php on line 4
+[27-Mar-2026 07:03:31 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/schoolin/public_html/includes/sidebar_logic.php on line 4
+[27-Mar-2026 07:03:31 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/schoolin/public_html/includes/sidebar_logic.php on line 9
+[27-Mar-2026 07:03:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/schoolin/public_html/website/notice_section.php:1) in /home/schoolin/public_html/includes/sidebar_logic.php on line 10
+[27-Mar-2026 07:03:33 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/schoolin/public_html/website/notice_section.php on line 4
+[27-Mar-2026 07:03:33 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/schoolin/public_html/includes/sidebar_logic.php on line 4
+[27-Mar-2026 07:03:33 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/schoolin/public_html/includes/sidebar_logic.php on line 9
+[27-Mar-2026 07:03:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/schoolin/public_html/website/notice_section.php:1) in /home/schoolin/public_html/includes/sidebar_logic.php on line 10
+[27-Mar-2026 07:03:33 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/schoolin/public_html/website/notice_section.php on line 4
+[27-Mar-2026 07:03:33 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/schoolin/public_html/includes/sidebar_logic.php on line 4
+[27-Mar-2026 07:03:33 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/schoolin/public_html/includes/sidebar_logic.php on line 9
+[27-Mar-2026 07:03:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/schoolin/public_html/website/notice_section.php:1) in /home/schoolin/public_html/includes/sidebar_logic.php on line 10
+[27-Mar-2026 07:03:33 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/schoolin/public_html/website/notice_section.php on line 4
+[27-Mar-2026 07:03:33 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/schoolin/public_html/includes/sidebar_logic.php on line 4
+[27-Mar-2026 07:03:33 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/schoolin/public_html/includes/sidebar_logic.php on line 9
+[27-Mar-2026 07:03:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/schoolin/public_html/website/notice_section.php:1) in /home/schoolin/public_html/includes/sidebar_logic.php on line 10
+[27-Mar-2026 07:03:33 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/schoolin/public_html/website/notice_section.php on line 4
+[27-Mar-2026 07:03:33 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/schoolin/public_html/includes/sidebar_logic.php on line 4
+[27-Mar-2026 07:03:33 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/schoolin/public_html/includes/sidebar_logic.php on line 9
+[27-Mar-2026 07:03:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/schoolin/public_html/website/notice_section.php:1) in /home/schoolin/public_html/includes/sidebar_logic.php on line 10
+[27-Mar-2026 07:05:02 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/schoolin/public_html/website/notice_section.php on line 4
+[27-Mar-2026 07:05:02 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/schoolin/public_html/includes/sidebar_logic.php on line 4
+[27-Mar-2026 07:05:02 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/schoolin/public_html/includes/sidebar_logic.php on line 9
+[27-Mar-2026 07:05:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/schoolin/public_html/website/notice_section.php:1) in /home/schoolin/public_html/includes/sidebar_logic.php on line 10
+[27-Mar-2026 07:06:03 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/schoolin/public_html/includes/sidebar_logic.php on line 4
+[27-Mar-2026 07:06:03 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/schoolin/public_html/includes/sidebar_logic.php on line 9
+[27-Mar-2026 07:06:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/schoolin/public_html/website/notice_section.php:1) in /home/schoolin/public_html/includes/sidebar_logic.php on line 10
+[27-Mar-2026 07:06:05 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/schoolin/public_html/includes/sidebar_logic.php on line 4
+[27-Mar-2026 07:06:05 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/schoolin/public_html/includes/sidebar_logic.php on line 9
+[27-Mar-2026 07:06:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/schoolin/public_html/website/notice_section.php:1) in /home/schoolin/public_html/includes/sidebar_logic.php on line 10
+[27-Mar-2026 07:06:05 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/schoolin/public_html/includes/sidebar_logic.php on line 4
+[27-Mar-2026 07:06:05 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/schoolin/public_html/includes/sidebar_logic.php on line 9
+[27-Mar-2026 07:06:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/schoolin/public_html/website/notice_section.php:1) in /home/schoolin/public_html/includes/sidebar_logic.php on line 10
+[27-Mar-2026 07:08:48 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/schoolin/public_html/website/notice_section.php on line 2
+[27-Mar-2026 07:08:48 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/schoolin/public_html/includes/sidebar_logic.php on line 4
+[27-Mar-2026 07:08:48 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/schoolin/public_html/includes/sidebar_logic.php on line 9
+[27-Mar-2026 07:08:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/schoolin/public_html/website/notice_section.php:1) in /home/schoolin/public_html/includes/sidebar_logic.php on line 10
+[27-Mar-2026 07:09:31 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/schoolin/public_html/includes/sidebar_logic.php on line 4
+[27-Mar-2026 07:09:31 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/schoolin/public_html/includes/sidebar_logic.php on line 9
+[27-Mar-2026 07:09:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/schoolin/public_html/website/notice_section.php:1) in /home/schoolin/public_html/includes/sidebar_logic.php on line 10
+[27-Mar-2026 07:09:33 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/schoolin/public_html/includes/sidebar_logic.php on line 4
+[27-Mar-2026 07:09:33 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/schoolin/public_html/includes/sidebar_logic.php on line 9
+[27-Mar-2026 07:09:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/schoolin/public_html/website/notice_section.php:1) in /home/schoolin/public_html/includes/sidebar_logic.php on line 10
+[27-Mar-2026 07:09:33 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/schoolin/public_html/includes/sidebar_logic.php on line 4
+[27-Mar-2026 07:09:33 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/schoolin/public_html/includes/sidebar_logic.php on line 9
+[27-Mar-2026 07:09:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/schoolin/public_html/website/notice_section.php:1) in /home/schoolin/public_html/includes/sidebar_logic.php on line 10
+[02-Apr-2026 06:37:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/schoolin/public_html/website/notice_section.php:64) in /home/schoolin/public_html/includes/sidebar_logic.php on line 10
+[02-Apr-2026 06:37:37 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/schoolin/public_html/website/notice_section.php:64) in /home/schoolin/public_html/includes/sidebar_logic.php on line 10

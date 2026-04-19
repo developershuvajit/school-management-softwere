@@ -1,0 +1,106 @@
+[30-Dec-2025 10:31:04 UTC] PHP Warning:  require_once(../../config/db.php): Failed to open stream: No such file or directory in /home/schoolin/public_html/actions/promote_students_action.php on line 2
+[30-Dec-2025 10:31:04 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../../config/db.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/schoolin/public_html/actions/promote_students_action.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/schoolin/public_html/actions/promote_students_action.php on line 2
+[30-Dec-2025 10:32:01 UTC] PHP Warning:  require_once(../config/db.php): Failed to open stream: No such file or directory in /home/schoolin/public_html/actions/promote_students_action.php on line 2
+[30-Dec-2025 10:32:01 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../config/db.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/schoolin/public_html/actions/promote_students_action.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/schoolin/public_html/actions/promote_students_action.php on line 2
+[30-Dec-2025 10:32:04 UTC] PHP Warning:  require_once(../config/db.php): Failed to open stream: No such file or directory in /home/schoolin/public_html/actions/promote_students_action.php on line 2
+[30-Dec-2025 10:32:04 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../config/db.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/schoolin/public_html/actions/promote_students_action.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/schoolin/public_html/actions/promote_students_action.php on line 2
+[30-Dec-2025 10:33:06 UTC] PHP Warning:  require_once(../config/db.php): Failed to open stream: No such file or directory in /home/schoolin/public_html/actions/promote_students_action.php on line 2
+[30-Dec-2025 10:33:06 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../config/db.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/schoolin/public_html/actions/promote_students_action.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/schoolin/public_html/actions/promote_students_action.php on line 2
+[30-Dec-2025 10:47:03 UTC] PHP Warning:  require_once(../config/db.php): Failed to open stream: No such file or directory in /home/schoolin/public_html/actions/promote_students_action.php on line 2
+[30-Dec-2025 10:47:03 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../config/db.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/schoolin/public_html/actions/promote_students_action.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/schoolin/public_html/actions/promote_students_action.php on line 2
+[31-Dec-2025 09:38:03 UTC] PHP Warning:  Undefined array key "academic_year" in /home/schoolin/public_html/templates/parent_idcard_template.php on line 515
+[31-Dec-2025 09:39:51 UTC] PHP Warning:  Undefined array key "academic_year" in /home/schoolin/public_html/templates/parent_idcard_template.php on line 515
+[31-Dec-2025 10:12:40 UTC] PHP Warning:  Undefined array key "academic_year" in /home/schoolin/public_html/templates/stickers_template.php on line 434
+[31-Dec-2025 10:16:56 UTC] PHP Warning:  Undefined array key "academic_year" in /home/schoolin/public_html/templates/stickers_template.php on line 435
+[05-Jan-2026 16:40:59 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/schoolin/public_html/actions/fee_types_action.php:55
+Stack trace:
+#0 /home/schoolin/public_html/actions/fee_types_action.php(55): mysqli_stmt->bind_param('sssii d', 'Admission fee', 'fee', 'ad_hoc', 16, 64, 4450.0)
+#1 {main}
+  thrown in /home/schoolin/public_html/actions/fee_types_action.php on line 55
+[05-Jan-2026 16:41:04 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/schoolin/public_html/actions/fee_types_action.php:55
+Stack trace:
+#0 /home/schoolin/public_html/actions/fee_types_action.php(55): mysqli_stmt->bind_param('sssii d', 'Admission fee', 'fee', 'ad_hoc', 16, 64, 4450.0)
+#1 {main}
+  thrown in /home/schoolin/public_html/actions/fee_types_action.php on line 55
+[05-Jan-2026 16:41:44 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/schoolin/public_html/actions/fee_types_action.php:55
+Stack trace:
+#0 /home/schoolin/public_html/actions/fee_types_action.php(55): mysqli_stmt->bind_param('sssii d', 'Admission fee', 'fee', 'ad_hoc', 16, 64, 4450.0)
+#1 {main}
+  thrown in /home/schoolin/public_html/actions/fee_types_action.php on line 55
+[05-Jan-2026 16:42:44 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/schoolin/public_html/actions/fee_types_action.php:55
+Stack trace:
+#0 /home/schoolin/public_html/actions/fee_types_action.php(55): mysqli_stmt->bind_param('sssii d', 'Monthly fee', 'fee', 'monthly', 16, 64, 330.0)
+#1 {main}
+  thrown in /home/schoolin/public_html/actions/fee_types_action.php on line 55
+[05-Jan-2026 16:44:41 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/schoolin/public_html/actions/fee_types_action.php:55
+Stack trace:
+#0 /home/schoolin/public_html/actions/fee_types_action.php(55): mysqli_stmt->bind_param('sssii d', 'Homepage', 'fee', 'ad_hoc', 16, 65, 100.0)
+#1 {main}
+  thrown in /home/schoolin/public_html/actions/fee_types_action.php on line 55
+[05-Jan-2026 16:48:59 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/schoolin/public_html/actions/fee_types_action.php:31
+Stack trace:
+#0 /home/schoolin/public_html/actions/fee_types_action.php(31): mysqli_stmt->bind_param('sssii di', 'admission fee', 'fee', 'ad_hoc', 16, 64, 500.0, '42')
+#1 {main}
+  thrown in /home/schoolin/public_html/actions/fee_types_action.php on line 31
+[05-Jan-2026 16:49:17 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/schoolin/public_html/actions/fee_types_action.php:31
+Stack trace:
+#0 /home/schoolin/public_html/actions/fee_types_action.php(31): mysqli_stmt->bind_param('sssiis', 'admission fee', 'fee', 'ad_hoc', 16, 64, 500.0, '42')
+#1 {main}
+  thrown in /home/schoolin/public_html/actions/fee_types_action.php on line 31
+[05-Jan-2026 16:49:36 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/schoolin/public_html/actions/fee_types_action.php:31
+Stack trace:
+#0 /home/schoolin/public_html/actions/fee_types_action.php(31): mysqli_stmt->bind_param('sssiii', 'admission fee', 'fee', 'ad_hoc', 16, 64, 500.0, '42')
+#1 {main}
+  thrown in /home/schoolin/public_html/actions/fee_types_action.php on line 31
+[05-Jan-2026 16:49:38 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/schoolin/public_html/actions/fee_types_action.php:31
+Stack trace:
+#0 /home/schoolin/public_html/actions/fee_types_action.php(31): mysqli_stmt->bind_param('sssiii', 'admission fee', 'fee', 'ad_hoc', 16, 64, 500.0, '42')
+#1 {main}
+  thrown in /home/schoolin/public_html/actions/fee_types_action.php on line 31
+[05-Jan-2026 16:50:21 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/schoolin/public_html/actions/fee_types_action.php:31
+Stack trace:
+#0 /home/schoolin/public_html/actions/fee_types_action.php(31): mysqli_stmt->bind_param('sssiis', 'admission fee', 'fee', 'ad_hoc', 16, 64, 500.0, '42')
+#1 {main}
+  thrown in /home/schoolin/public_html/actions/fee_types_action.php on line 31
+[05-Jan-2026 16:50:33 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/schoolin/public_html/actions/fee_types_action.php:31
+Stack trace:
+#0 /home/schoolin/public_html/actions/fee_types_action.php(31): mysqli_stmt->bind_param('sssiis', 'admission fee', 'fee', 'ad_hoc', 16, 64, 500.0, '42')
+#1 {main}
+  thrown in /home/schoolin/public_html/actions/fee_types_action.php on line 31
+[09-Jan-2026 10:00:09 UTC] PHP Parse error:  syntax error, unexpected token "elseif" in /home/schoolin/public_html/actions/generate_idcard_action.php on line 65
+[09-Jan-2026 14:09:26 UTC] PHP Parse error:  syntax error, unexpected token "++", expecting "," or ";" in /home/schoolin/public_html/actions/get_parents_data.php on line 105
+[12-Jan-2026 03:21:23 UTC] PHP Warning:  Undefined variable $father_name in /home/schoolin/public_html/actions/student_edit.php on line 29
+[12-Jan-2026 03:21:23 UTC] PHP Warning:  Undefined variable $mother_name in /home/schoolin/public_html/actions/student_edit.php on line 29
+[23-Jan-2026 11:05:06 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/schoolin/public_html/config/database.php:8
+Stack trace:
+#0 /home/schoolin/public_html/config/database.php(8): mysqli->__construct('localhost', 'schoolin_school', Object(SensitiveParameterValue), 'schoolin_school...', '8889')
+#1 /home/schoolin/public_html/actions/generate_idcard_action.php(5): require_once('/home/schoolin/...')
+#2 {main}
+  thrown in /home/schoolin/public_html/config/database.php on line 8
+[28-Jan-2026 13:22:08 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/schoolin/public_html/config/database.php:8
+Stack trace:
+#0 /home/schoolin/public_html/config/database.php(8): mysqli->__construct('localhost', 'schoolin_school', Object(SensitiveParameterValue), 'schoolin_school...', '8889')
+#1 /home/schoolin/public_html/actions/login_script.php(9): require_once('/home/schoolin/...')
+#2 {main}
+  thrown in /home/schoolin/public_html/config/database.php on line 8
+[03-Feb-2026 14:17:49 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/schoolin/public_html/config/database.php:8
+Stack trace:
+#0 /home/schoolin/public_html/config/database.php(8): mysqli->__construct()
+#1 /home/schoolin/public_html/actions/login_script.php(9): require_once('/home/schoolin/...')
+#2 {main}
+  thrown in /home/schoolin/public_html/config/database.php on line 8
